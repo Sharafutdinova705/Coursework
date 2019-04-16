@@ -12,6 +12,17 @@
 		52A6B5EB226622FA004861B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5E9226622FA004861B3 /* Main.storyboard */; };
 		52A6B5ED22662300004861B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5EC22662300004861B3 /* Assets.xcassets */; };
 		52A6B5F022662300004861B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5EE22662300004861B3 /* LaunchScreen.storyboard */; };
+		52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */; };
+		52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */; };
+		52A6B60B2266274D004861B3 /* MainScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FE2266274D004861B3 /* MainScreenViewOutput.swift */; };
+		52A6B60C2266274D004861B3 /* MainScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FF2266274D004861B3 /* MainScreenViewInput.swift */; };
+		52A6B60D2266274D004861B3 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6002266274D004861B3 /* MainScreenViewController.swift */; };
+		52A6B60E2266274D004861B3 /* MainScreenInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6022266274D004861B3 /* MainScreenInteractorOutput.swift */; };
+		52A6B60F2266274D004861B3 /* MainScreenInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6032266274D004861B3 /* MainScreenInteractorInput.swift */; };
+		52A6B6102266274D004861B3 /* MainScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6042266274D004861B3 /* MainScreenInteractor.swift */; };
+		52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */; };
+		52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */; };
+		52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6082266274D004861B3 /* MainScreenRouter.swift */; };
 		A5F1B505C328FD78A0190263 /* Pods_EyeExecises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9FC735F3190EDF2839C0B6 /* Pods_EyeExecises.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +37,17 @@
 		52A6B5EC22662300004861B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A6B5EF22662300004861B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A6B5F122662300004861B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
+		52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenModuleConfigurator.swift; sourceTree = "<group>"; };
+		52A6B5FE2266274D004861B3 /* MainScreenViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewOutput.swift; sourceTree = "<group>"; };
+		52A6B5FF2266274D004861B3 /* MainScreenViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewInput.swift; sourceTree = "<group>"; };
+		52A6B6002266274D004861B3 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		52A6B6022266274D004861B3 /* MainScreenInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInteractorOutput.swift; sourceTree = "<group>"; };
+		52A6B6032266274D004861B3 /* MainScreenInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInteractorInput.swift; sourceTree = "<group>"; };
+		52A6B6042266274D004861B3 /* MainScreenInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInteractor.swift; sourceTree = "<group>"; };
+		52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouterInput.swift; sourceTree = "<group>"; };
+		52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouterOutput.swift; sourceTree = "<group>"; };
+		52A6B6082266274D004861B3 /* MainScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +91,7 @@
 		52A6B5E4226622FA004861B3 /* EyeExecises */ = {
 			isa = PBXGroup;
 			children = (
+				52A6B5F92266274D004861B3 /* MainScreen */,
 				52A6B5E5226622FA004861B3 /* AppDelegate.swift */,
 				52A6B5E7226622FA004861B3 /* ViewController.swift */,
 				52A6B5E9226622FA004861B3 /* Main.storyboard */,
@@ -79,13 +102,62 @@
 			path = EyeExecises;
 			sourceTree = "<group>";
 		};
+		52A6B5F92266274D004861B3 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B5FA2266274D004861B3 /* Presenter */,
+				52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */,
+				52A6B5FD2266274D004861B3 /* View */,
+				52A6B6012266274D004861B3 /* Interactor */,
+				52A6B6052266274D004861B3 /* Router */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		52A6B5FA2266274D004861B3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		52A6B5FD2266274D004861B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B5FE2266274D004861B3 /* MainScreenViewOutput.swift */,
+				52A6B5FF2266274D004861B3 /* MainScreenViewInput.swift */,
+				52A6B6002266274D004861B3 /* MainScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52A6B6012266274D004861B3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B6022266274D004861B3 /* MainScreenInteractorOutput.swift */,
+				52A6B6032266274D004861B3 /* MainScreenInteractorInput.swift */,
+				52A6B6042266274D004861B3 /* MainScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		52A6B6052266274D004861B3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */,
+				52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */,
+				52A6B6082266274D004861B3 /* MainScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		CD8B18168EEEE59273B7894D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				37934CCBC6ECC44189E25E0B /* Pods-EyeExecises.debug.xcconfig */,
 				44FED1E2D6A40A1D9D01BDEC /* Pods-EyeExecises.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,8 +258,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A6B60E2266274D004861B3 /* MainScreenInteractorOutput.swift in Sources */,
 				52A6B5E8226622FA004861B3 /* ViewController.swift in Sources */,
 				52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */,
+				52A6B60D2266274D004861B3 /* MainScreenViewController.swift in Sources */,
+				52A6B60C2266274D004861B3 /* MainScreenViewInput.swift in Sources */,
+				52A6B6102266274D004861B3 /* MainScreenInteractor.swift in Sources */,
+				52A6B60B2266274D004861B3 /* MainScreenViewOutput.swift in Sources */,
+				52A6B60F2266274D004861B3 /* MainScreenInteractorInput.swift in Sources */,
+				52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */,
+				52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */,
+				52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */,
+				52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */,
+				52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
