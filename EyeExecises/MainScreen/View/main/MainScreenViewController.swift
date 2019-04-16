@@ -21,5 +21,4 @@ class MainScreenViewController: UIViewController, MainScreenViewInput {
     
     //MARK: - MainScreenViewInput
     
-    
 }

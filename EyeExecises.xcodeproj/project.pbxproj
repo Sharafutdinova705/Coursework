@@ -14,9 +14,6 @@
 		52A6B5F022662300004861B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5EE22662300004861B3 /* LaunchScreen.storyboard */; };
 		52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */; };
 		52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */; };
-		52A6B60B2266274D004861B3 /* MainScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FE2266274D004861B3 /* MainScreenViewOutput.swift */; };
-		52A6B60C2266274D004861B3 /* MainScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FF2266274D004861B3 /* MainScreenViewInput.swift */; };
-		52A6B60D2266274D004861B3 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6002266274D004861B3 /* MainScreenViewController.swift */; };
 		52A6B60E2266274D004861B3 /* MainScreenInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6022266274D004861B3 /* MainScreenInteractorOutput.swift */; };
 		52A6B60F2266274D004861B3 /* MainScreenInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6032266274D004861B3 /* MainScreenInteractorInput.swift */; };
 		52A6B6102266274D004861B3 /* MainScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6042266274D004861B3 /* MainScreenInteractor.swift */; };
@@ -24,6 +21,15 @@
 		52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */; };
 		52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6082266274D004861B3 /* MainScreenRouter.swift */; };
 		52A6B615226628D4004861B3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B614226628D4004861B3 /* GradientView.swift */; };
+		52A6B61B22664AB3004861B3 /* MainScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B61822664AB3004861B3 /* MainScreenViewOutput.swift */; };
+		52A6B61C22664AB3004861B3 /* MainScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B61922664AB3004861B3 /* MainScreenViewInput.swift */; };
+		52A6B61D22664AB3004861B3 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B61A22664AB3004861B3 /* MainScreenViewController.swift */; };
+		52A6B62322664B83004861B3 /* BaseViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B62022664B82004861B3 /* BaseViewOutput.swift */; };
+		52A6B62422664B83004861B3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B62122664B83004861B3 /* BaseViewController.swift */; };
+		52A6B62522664B83004861B3 /* BaseViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B62222664B83004861B3 /* BaseViewInput.swift */; };
+		52A6B62A22664B8C004861B3 /* MenuViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B62722664B8C004861B3 /* MenuViewOutput.swift */; };
+		52A6B62B22664B8C004861B3 /* MenuViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B62822664B8C004861B3 /* MenuViewInput.swift */; };
+		52A6B62C22664B8C004861B3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B62922664B8C004861B3 /* MenuViewController.swift */; };
 		A5F1B505C328FD78A0190263 /* Pods_EyeExecises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9FC735F3190EDF2839C0B6 /* Pods_EyeExecises.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +46,6 @@
 		52A6B5F122662300004861B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
 		52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenModuleConfigurator.swift; sourceTree = "<group>"; };
-		52A6B5FE2266274D004861B3 /* MainScreenViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewOutput.swift; sourceTree = "<group>"; };
-		52A6B5FF2266274D004861B3 /* MainScreenViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewInput.swift; sourceTree = "<group>"; };
-		52A6B6002266274D004861B3 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		52A6B6022266274D004861B3 /* MainScreenInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInteractorOutput.swift; sourceTree = "<group>"; };
 		52A6B6032266274D004861B3 /* MainScreenInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInteractorInput.swift; sourceTree = "<group>"; };
 		52A6B6042266274D004861B3 /* MainScreenInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenInteractor.swift; sourceTree = "<group>"; };
@@ -50,6 +53,15 @@
 		52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouterOutput.swift; sourceTree = "<group>"; };
 		52A6B6082266274D004861B3 /* MainScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
 		52A6B614226628D4004861B3 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		52A6B61822664AB3004861B3 /* MainScreenViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewOutput.swift; sourceTree = "<group>"; };
+		52A6B61922664AB3004861B3 /* MainScreenViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewInput.swift; sourceTree = "<group>"; };
+		52A6B61A22664AB3004861B3 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		52A6B62022664B82004861B3 /* BaseViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewOutput.swift; sourceTree = "<group>"; };
+		52A6B62122664B83004861B3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		52A6B62222664B83004861B3 /* BaseViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewInput.swift; sourceTree = "<group>"; };
+		52A6B62722664B8C004861B3 /* MenuViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewOutput.swift; sourceTree = "<group>"; };
+		52A6B62822664B8C004861B3 /* MenuViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewInput.swift; sourceTree = "<group>"; };
+		52A6B62922664B8C004861B3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +140,9 @@
 		52A6B5FD2266274D004861B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				52A6B5FE2266274D004861B3 /* MainScreenViewOutput.swift */,
-				52A6B5FF2266274D004861B3 /* MainScreenViewInput.swift */,
-				52A6B6002266274D004861B3 /* MainScreenViewController.swift */,
+				52A6B62622664B8C004861B3 /* menu */,
+				52A6B61F22664B82004861B3 /* base */,
+				52A6B61722664AB3004861B3 /* main */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +165,36 @@
 				52A6B6082266274D004861B3 /* MainScreenRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		52A6B61722664AB3004861B3 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B61822664AB3004861B3 /* MainScreenViewOutput.swift */,
+				52A6B61922664AB3004861B3 /* MainScreenViewInput.swift */,
+				52A6B61A22664AB3004861B3 /* MainScreenViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		52A6B61F22664B82004861B3 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B62022664B82004861B3 /* BaseViewOutput.swift */,
+				52A6B62122664B83004861B3 /* BaseViewController.swift */,
+				52A6B62222664B83004861B3 /* BaseViewInput.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		52A6B62622664B8C004861B3 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B62722664B8C004861B3 /* MenuViewOutput.swift */,
+				52A6B62822664B8C004861B3 /* MenuViewInput.swift */,
+				52A6B62922664B8C004861B3 /* MenuViewController.swift */,
+			);
+			path = menu;
 			sourceTree = "<group>";
 		};
 		CD8B18168EEEE59273B7894D /* Pods */ = {
@@ -263,18 +305,24 @@
 			files = (
 				52A6B60E2266274D004861B3 /* MainScreenInteractorOutput.swift in Sources */,
 				52A6B5E8226622FA004861B3 /* ViewController.swift in Sources */,
+				52A6B61B22664AB3004861B3 /* MainScreenViewOutput.swift in Sources */,
 				52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */,
-				52A6B60D2266274D004861B3 /* MainScreenViewController.swift in Sources */,
 				52A6B615226628D4004861B3 /* GradientView.swift in Sources */,
-				52A6B60C2266274D004861B3 /* MainScreenViewInput.swift in Sources */,
 				52A6B6102266274D004861B3 /* MainScreenInteractor.swift in Sources */,
-				52A6B60B2266274D004861B3 /* MainScreenViewOutput.swift in Sources */,
+				52A6B61C22664AB3004861B3 /* MainScreenViewInput.swift in Sources */,
+				52A6B62522664B83004861B3 /* BaseViewInput.swift in Sources */,
 				52A6B60F2266274D004861B3 /* MainScreenInteractorInput.swift in Sources */,
 				52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */,
+				52A6B61D22664AB3004861B3 /* MainScreenViewController.swift in Sources */,
+				52A6B62C22664B8C004861B3 /* MenuViewController.swift in Sources */,
 				52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */,
 				52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */,
 				52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */,
+				52A6B62B22664B8C004861B3 /* MenuViewInput.swift in Sources */,
+				52A6B62A22664B8C004861B3 /* MenuViewOutput.swift in Sources */,
+				52A6B62422664B83004861B3 /* BaseViewController.swift in Sources */,
 				52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */,
+				52A6B62322664B83004861B3 /* BaseViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
