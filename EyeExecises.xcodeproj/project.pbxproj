@@ -23,6 +23,7 @@
 		52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */; };
 		52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */; };
 		52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6082266274D004861B3 /* MainScreenRouter.swift */; };
+		52A6B615226628D4004861B3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B614226628D4004861B3 /* GradientView.swift */; };
 		A5F1B505C328FD78A0190263 /* Pods_EyeExecises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9FC735F3190EDF2839C0B6 /* Pods_EyeExecises.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouterInput.swift; sourceTree = "<group>"; };
 		52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouterOutput.swift; sourceTree = "<group>"; };
 		52A6B6082266274D004861B3 /* MainScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
+		52A6B614226628D4004861B3 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		52A6B5E4226622FA004861B3 /* EyeExecises */ = {
 			isa = PBXGroup;
 			children = (
+				52A6B614226628D4004861B3 /* GradientView.swift */,
 				52A6B5F92266274D004861B3 /* MainScreen */,
 				52A6B5E5226622FA004861B3 /* AppDelegate.swift */,
 				52A6B5E7226622FA004861B3 /* ViewController.swift */,
@@ -262,6 +265,7 @@
 				52A6B5E8226622FA004861B3 /* ViewController.swift in Sources */,
 				52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */,
 				52A6B60D2266274D004861B3 /* MainScreenViewController.swift in Sources */,
+				52A6B615226628D4004861B3 /* GradientView.swift in Sources */,
 				52A6B60C2266274D004861B3 /* MainScreenViewInput.swift in Sources */,
 				52A6B6102266274D004861B3 /* MainScreenInteractor.swift in Sources */,
 				52A6B60B2266274D004861B3 /* MainScreenViewOutput.swift in Sources */,
