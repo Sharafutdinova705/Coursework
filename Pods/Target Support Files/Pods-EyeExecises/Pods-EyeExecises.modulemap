@@ -1,0 +1,6 @@
+framework module Pods_EyeExecises {
+  umbrella header "Pods-EyeExecises-umbrella.h"
+
+  export *
+  module * { export * }
+}
