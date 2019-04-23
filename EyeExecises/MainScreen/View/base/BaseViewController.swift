@@ -15,6 +15,55 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(menuButtonPressed),
+                                               name: NSNotification.Name("menuButtonPressed"),
+                                               object: nil)
+        
+        swipeLeft()
+        swipeRight()
+    }
+    
+    func swipeLeft() {
+        
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipedLeft))
+        swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
+        self.view.addGestureRecognizer(swipeLeft)
+    }
+    
+    func swipeRight() {
+        
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(swipedRight))
+        swipeRight.direction = UISwipeGestureRecognizer.Direction.right
+        self.view.addGestureRecognizer(swipeRight)
+    }
+    
+    @objc func swipedLeft() {
+        
+        isMenuHidden = false
+        NotificationCenter.default.post(name: NSNotification.Name("menuButtonPressed"), object: nil)
+    }
+    
+    @objc func swipedRight() {
+        
+        isMenuHidden = true
+        NotificationCenter.default.post(name: NSNotification.Name("menuButtonPressed"), object: nil)
+    }
+    
+    @objc func menuButtonPressed() {
+        
+        if isMenuHidden {
+            isMenuHidden = false
+            menuConstraint.constant = 0
+        } else {
+            isMenuHidden = true
+            menuConstraint.constant = -250
+        }
+        
+        UIView.animate(withDuration: 0.3) {
+            self.view.layoutIfNeeded()
+        }
     }
 }
 

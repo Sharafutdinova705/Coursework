@@ -19,6 +19,7 @@ class MainScreenViewController: UIViewController, MainScreenViewInput {
         
     }
     
-    //MARK: - MainScreenViewInput
-    
+    @IBAction func menuButtonPressed(_ sender: Any) {
+        NotificationCenter.default.post(name: NSNotification.Name("menuButtonPressed"), object: nil)
+    }
 }
