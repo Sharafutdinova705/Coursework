@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91D8227C2A960095F992 /* VideoViewOutput.swift */; };
+		527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DA227C2AA40095F992 /* VideoViewInput.swift */; };
+		527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DE227C2ACF0095F992 /* VideoViewController.swift */; };
+		527B91E1227C2EE00095F992 /* VideoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91E0227C2EE00095F992 /* VideoPresenter.swift */; };
+		527B91E5227C2F110095F992 /* VideoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91E4227C2F110095F992 /* VideoInteractor.swift */; };
+		527B91E7227C2F210095F992 /* VideoInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91E6227C2F210095F992 /* VideoInteractorInput.swift */; };
+		527B91E9227C2F2C0095F992 /* VideoInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91E8227C2F2C0095F992 /* VideoInteractorOutput.swift */; };
+		527B91ED227C37DD0095F992 /* VideoModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */; };
 		52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5E5226622FA004861B3 /* AppDelegate.swift */; };
-		52A6B5E8226622FA004861B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5E7226622FA004861B3 /* ViewController.swift */; };
 		52A6B5EB226622FA004861B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5E9226622FA004861B3 /* Main.storyboard */; };
 		52A6B5ED22662300004861B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5EC22662300004861B3 /* Assets.xcassets */; };
 		52A6B5F022662300004861B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5EE22662300004861B3 /* LaunchScreen.storyboard */; };
@@ -37,9 +44,16 @@
 		37934CCBC6ECC44189E25E0B /* Pods-EyeExecises.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeExecises.debug.xcconfig"; path = "Target Support Files/Pods-EyeExecises/Pods-EyeExecises.debug.xcconfig"; sourceTree = "<group>"; };
 		3F9FC735F3190EDF2839C0B6 /* Pods_EyeExecises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeExecises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FED1E2D6A40A1D9D01BDEC /* Pods-EyeExecises.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeExecises.release.xcconfig"; path = "Target Support Files/Pods-EyeExecises/Pods-EyeExecises.release.xcconfig"; sourceTree = "<group>"; };
+		527B91D8227C2A960095F992 /* VideoViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewOutput.swift; sourceTree = "<group>"; };
+		527B91DA227C2AA40095F992 /* VideoViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewInput.swift; sourceTree = "<group>"; };
+		527B91DE227C2ACF0095F992 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		527B91E0227C2EE00095F992 /* VideoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPresenter.swift; sourceTree = "<group>"; };
+		527B91E4227C2F110095F992 /* VideoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractor.swift; sourceTree = "<group>"; };
+		527B91E6227C2F210095F992 /* VideoInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractorInput.swift; sourceTree = "<group>"; };
+		527B91E8227C2F2C0095F992 /* VideoInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractorOutput.swift; sourceTree = "<group>"; };
+		527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModuleConfigurator.swift; sourceTree = "<group>"; };
 		52A6B5E2226622FA004861B3 /* EyeExecises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeExecises.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A6B5E5226622FA004861B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52A6B5E7226622FA004861B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52A6B5EA226622FA004861B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52A6B5EC22662300004861B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A6B5EF22662300004861B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,6 +98,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		527B91D7227C2A750095F992 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				527B91D8227C2A960095F992 /* VideoViewOutput.swift */,
+				527B91DA227C2AA40095F992 /* VideoViewInput.swift */,
+				527B91DE227C2ACF0095F992 /* VideoViewController.swift */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		527B91E3227C2EFA0095F992 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				527B91E4227C2F110095F992 /* VideoInteractor.swift */,
+				527B91E6227C2F210095F992 /* VideoInteractorInput.swift */,
+				527B91E8227C2F2C0095F992 /* VideoInteractorOutput.swift */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
 		52A6B5D9226622FA004861B3 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +142,6 @@
 				52A6B614226628D4004861B3 /* GradientView.swift */,
 				52A6B5F92266274D004861B3 /* MainScreen */,
 				52A6B5E5226622FA004861B3 /* AppDelegate.swift */,
-				52A6B5E7226622FA004861B3 /* ViewController.swift */,
 				52A6B5E9226622FA004861B3 /* Main.storyboard */,
 				52A6B5EC22662300004861B3 /* Assets.xcassets */,
 				52A6B5EE22662300004861B3 /* LaunchScreen.storyboard */,
@@ -122,6 +155,7 @@
 			children = (
 				52A6B5FA2266274D004861B3 /* Presenter */,
 				52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */,
+				527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */,
 				52A6B5FD2266274D004861B3 /* View */,
 				52A6B6012266274D004861B3 /* Interactor */,
 				52A6B6052266274D004861B3 /* Router */,
@@ -133,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */,
+				527B91E0227C2EE00095F992 /* VideoPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -140,6 +175,7 @@
 		52A6B5FD2266274D004861B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				527B91D7227C2A750095F992 /* video */,
 				52A6B62622664B8C004861B3 /* menu */,
 				52A6B61F22664B82004861B3 /* base */,
 				52A6B61722664AB3004861B3 /* main */,
@@ -153,6 +189,7 @@
 				52A6B6022266274D004861B3 /* MainScreenInteractorOutput.swift */,
 				52A6B6032266274D004861B3 /* MainScreenInteractorInput.swift */,
 				52A6B6042266274D004861B3 /* MainScreenInteractor.swift */,
+				527B91E3227C2EFA0095F992 /* video */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -304,21 +341,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A6B60E2266274D004861B3 /* MainScreenInteractorOutput.swift in Sources */,
-				52A6B5E8226622FA004861B3 /* ViewController.swift in Sources */,
 				52A6B61B22664AB3004861B3 /* MainScreenViewOutput.swift in Sources */,
 				52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */,
 				52A6B615226628D4004861B3 /* GradientView.swift in Sources */,
+				527B91E7227C2F210095F992 /* VideoInteractorInput.swift in Sources */,
+				527B91E5227C2F110095F992 /* VideoInteractor.swift in Sources */,
 				52A6B6102266274D004861B3 /* MainScreenInteractor.swift in Sources */,
+				527B91E1227C2EE00095F992 /* VideoPresenter.swift in Sources */,
+				527B91ED227C37DD0095F992 /* VideoModuleConfigurator.swift in Sources */,
 				52A6B61C22664AB3004861B3 /* MainScreenViewInput.swift in Sources */,
 				52A6B62522664B83004861B3 /* BaseViewInput.swift in Sources */,
 				52A6B60F2266274D004861B3 /* MainScreenInteractorInput.swift in Sources */,
+				527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */,
 				52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */,
 				52A6B61D22664AB3004861B3 /* MainScreenViewController.swift in Sources */,
 				52A6B62C22664B8C004861B3 /* MenuViewController.swift in Sources */,
+				527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */,
 				52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */,
 				52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */,
 				52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */,
+				527B91E9227C2F2C0095F992 /* VideoInteractorOutput.swift in Sources */,
 				52A6B62B22664B8C004861B3 /* MenuViewInput.swift in Sources */,
+				527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */,
 				52A6B62A22664B8C004861B3 /* MenuViewOutput.swift in Sources */,
 				52A6B62422664B83004861B3 /* BaseViewController.swift in Sources */,
 				52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */,

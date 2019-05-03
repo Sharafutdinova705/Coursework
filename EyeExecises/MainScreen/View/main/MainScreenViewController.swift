@@ -22,4 +22,8 @@ class MainScreenViewController: UIViewController, MainScreenViewInput {
     @IBAction func menuButtonPressed(_ sender: Any) {
         NotificationCenter.default.post(name: NSNotification.Name("menuButtonPressed"), object: nil)
     }
+    
+    @IBAction func startExercisesAsVideo(_ sender: Any) {
+        performSegue(withIdentifier: "startVideo", sender: nil)
+    }
 }
