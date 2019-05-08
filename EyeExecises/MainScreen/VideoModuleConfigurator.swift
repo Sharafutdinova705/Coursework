@@ -21,7 +21,7 @@ class VideoModuleConfigurator: NSObject {
     
     func configureModule() {
         
-        let viewController = self.viewController as! VideoViewController
+        guard let viewController = self.viewController as? VideoViewController else { return }
         let presenter = VideoPresenter()
         let interactor = VideoInteractor()
         

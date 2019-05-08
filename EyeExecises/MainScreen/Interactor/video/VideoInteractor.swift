@@ -11,7 +11,7 @@ import UIKit
 
 class VideoInteractor: VideoInteractorInput {
     
-    let duration = 1.0
+    let duration = 0.5
     var presenter: VideoInteractorOutput!
     
     func doExercises(selfView: UIView, circleView: UIView) {
@@ -201,12 +201,6 @@ class VideoInteractor: VideoInteractorInput {
                             self.leftSquare(selfView: selfView, circleView: circleView, i: a)
                         } else {
                             
-                            UIView.animate(withDuration: self.duration, animations: {
-                                
-                                circleView.center.y = selfView.frame.maxY - (circleView.frame.height + 16)
-                                circleView.center.x = selfView.frame.minX + (circleView.frame.height + 16)
-                            })
-                            
                             self.rightCircle(selfView: selfView, circleView: circleView, i: 0, t: 0, isStart: true)
                         }
                     }
@@ -317,9 +311,9 @@ class VideoInteractor: VideoInteractorInput {
             if !isStartCircle && t <= Int(selfView.frame.width) {
                 self.leftCircle(selfView: selfView, circleView: circleView, i: i, t: t+1, isStart: isStartCircle)
             } else if isStartCircle && t > Int(circleView.frame.width + 16) {
+                
                 self.leftCircle(selfView: selfView, circleView: circleView, i: i, t: t-1, isStart: isStartCircle)
             }else if t == Int(circleView.frame.width + 16) {
-                
                 l = i + 1
                 
                 if i < 5 {

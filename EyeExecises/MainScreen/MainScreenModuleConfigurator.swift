@@ -21,7 +21,7 @@ class MainScreenModuleConfigurator: NSObject {
     
     func configureModule() {
         
-        let viewController = self.viewController as! MainScreenViewController
+        guard let viewController = self.viewController as? MainScreenViewController else { return }
         let presenter = MainScreenPresenter()
         
         viewController.output = presenter

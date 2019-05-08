@@ -247,7 +247,7 @@
             </objects>
             <point key="canvasLocation" x="-1183.2" y="1339.8800599700151"/>
         </scene>
-        <!--Menu View Controller-->
+        <!--View Controller-->
         <scene sceneID="WkZ-of-M5G">
             <objects>
                 <viewController id="bSU-oV-Fh5" customClass="MenuViewController" customModule="EyeExecises" customModuleProvider="target" sceneMemberID="viewController">
@@ -269,6 +269,9 @@
                                         <state key="normal" title="Exercises">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="showExercises:" destination="bSU-oV-Fh5" eventType="touchUpInside" id="uCO-Dh-dge"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="W2z-iN-eCl">
                                         <rect key="frame" x="0.0" y="34" width="174" height="12"/>
@@ -282,6 +285,9 @@
                                         <state key="normal" title="Eyesight check">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="showEyesightCheckPage:" destination="bSU-oV-Fh5" eventType="touchUpInside" id="jFd-9W-3Tv"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="zfU-8Q-t2d">
                                         <rect key="frame" x="0.0" y="84" width="174" height="12"/>
@@ -295,6 +301,9 @@
                                         <state key="normal" title="Statistic">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="showStatisticPage:" destination="bSU-oV-Fh5" eventType="touchUpInside" id="lU1-1P-Sef"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="GgJ-dt-zjH">
                                         <rect key="frame" x="0.0" y="134" width="174" height="12"/>
@@ -308,6 +317,9 @@
                                         <state key="normal" title="Achievements">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="showAchievements:" destination="bSU-oV-Fh5" eventType="touchUpInside" id="w0R-AK-CIm"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="TJj-Tt-WbK">
                                         <rect key="frame" x="0.0" y="184" width="174" height="12"/>
@@ -321,6 +333,9 @@
                                         <state key="normal" title="Settings">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="showSettings:" destination="bSU-oV-Fh5" eventType="touchUpInside" id="KnD-GJ-EQJ"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="5Li-Au-LHM">
                                         <rect key="frame" x="0.0" y="234" width="174" height="12"/>
@@ -343,6 +358,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G3E-ep-dwf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="IVE-ir-Bt6" customClass="MenuScreenModuleConfigurator" customModule="EyeExecises" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="bSU-oV-Fh5" id="f3n-U9-OhC"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="40" y="788.45577211394311"/>
         </scene>
@@ -436,10 +456,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BFz-xI-7b9">
-                                <rect key="frame" x="157.5" y="587" width="60" height="60"/>
+                                <rect key="frame" x="172.5" y="617" width="30" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izh-zr-Hri">
-                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                         <connections>
                                             <action selector="startExercise:" destination="nVp-u6-Mrl" eventType="touchUpInside" id="3yl-XR-bHU"/>
                                         </connections>
@@ -449,13 +469,13 @@
                                 <constraints>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="height" secondItem="BFz-xI-7b9" secondAttribute="height" id="Ca6-8C-8fS"/>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="leading" secondItem="BFz-xI-7b9" secondAttribute="leading" id="D5v-Lq-Gs0"/>
-                                    <constraint firstAttribute="width" constant="60" id="DHm-Pa-b8E"/>
+                                    <constraint firstAttribute="width" constant="30" id="DHm-Pa-b8E"/>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="top" secondItem="BFz-xI-7b9" secondAttribute="top" id="E7e-Ea-ZJI"/>
                                     <constraint firstAttribute="trailing" secondItem="izh-zr-Hri" secondAttribute="trailing" id="HmH-yP-koS"/>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="centerY" secondItem="BFz-xI-7b9" secondAttribute="centerY" id="fk4-fn-x6I"/>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="centerX" secondItem="BFz-xI-7b9" secondAttribute="centerX" id="iRp-8O-fDj"/>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="width" secondItem="BFz-xI-7b9" secondAttribute="width" id="mV8-Bh-uHB"/>
-                                    <constraint firstAttribute="height" constant="60" id="mYg-zP-hrM"/>
+                                    <constraint firstAttribute="height" constant="30" id="mYg-zP-hrM"/>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="top" secondItem="BFz-xI-7b9" secondAttribute="top" id="sWe-Ux-g6I"/>
                                     <constraint firstItem="izh-zr-Hri" firstAttribute="leading" secondItem="BFz-xI-7b9" secondAttribute="leading" id="vD4-W2-s5t"/>
                                     <constraint firstAttribute="bottom" secondItem="izh-zr-Hri" secondAttribute="bottom" id="yyL-ud-7cR"/>
