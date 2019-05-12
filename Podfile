@@ -6,5 +6,8 @@ target 'EyeExecises' do
   use_frameworks!
 
   # Pods for EyeExecises
+   pod 'RealmSwift'
+   pod 'SDWebImage', '~> 4.0'
+    pod 'Charts'
 
 end

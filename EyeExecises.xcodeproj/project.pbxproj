@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5255CA7722871FE300D27A3C /* EyesightStatisticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA7622871FE300D27A3C /* EyesightStatisticTableViewCell.swift */; };
+		5255CA792287200200D27A3C /* EyesightStatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA782287200200D27A3C /* EyesightStatisticViewController.swift */; };
+		5255CA7C22873E5100D27A3C /* DataBaseManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA7B22873E5100D27A3C /* DataBaseManagerProtocol.swift */; };
+		5255CA7E22873E5D00D27A3C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA7D22873E5D00D27A3C /* DataBaseManager.swift */; };
+		5255CA8122873F4B00D27A3C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA8022873F4B00D27A3C /* UserModel.swift */; };
+		5255CA832287404B00D27A3C /* EyesightCheckNoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA822287404B00D27A3C /* EyesightCheckNoteModel.swift */; };
+		5255CA852287414300D27A3C /* UsageDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA842287414300D27A3C /* UsageDateModel.swift */; };
+		5255CA872287419200D27A3C /* AchievementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA862287419200D27A3C /* AchievementModel.swift */; };
+		5255CA8922874AD800D27A3C /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA8822874AD800D27A3C /* ExerciseModel.swift */; };
+		5255CA9022875AD100D27A3C /* StatisticViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA8D22875AD100D27A3C /* StatisticViewInput.swift */; };
+		5255CA9122875AD100D27A3C /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA8E22875AD100D27A3C /* StatisticViewController.swift */; };
+		5255CA9222875AD100D27A3C /* StatisticViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA8F22875AD100D27A3C /* StatisticViewOutput.swift */; };
+		5255CA9922875B3E00D27A3C /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA9622875B3D00D27A3C /* AchievementsViewController.swift */; };
+		5255CA9A22875B3E00D27A3C /* AchievementsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA9722875B3D00D27A3C /* AchievementsViewInput.swift */; };
+		5255CA9B22875B3E00D27A3C /* AchievementsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA9822875B3D00D27A3C /* AchievementsViewOutput.swift */; };
+		5255CAA222875B7000D27A3C /* SettingsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CA9F22875B7000D27A3C /* SettingsViewOutput.swift */; };
+		5255CAA322875B7000D27A3C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAA022875B7000D27A3C /* SettingsViewController.swift */; };
+		5255CAA422875B7000D27A3C /* SettingsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAA122875B7000D27A3C /* SettingsViewInput.swift */; };
+		5255CAA822876DAB00D27A3C /* StatisticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAA722876DAB00D27A3C /* StatisticTableViewCell.swift */; };
+		5255CAAD22876DDB00D27A3C /* ExerciseDetailViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAAA22876DDB00D27A3C /* ExerciseDetailViewInput.swift */; };
+		5255CAAE22876DDB00D27A3C /* ExerciseDetailViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAAB22876DDB00D27A3C /* ExerciseDetailViewOutput.swift */; };
+		5255CAAF22876DDB00D27A3C /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAAC22876DDB00D27A3C /* ExerciseDetailViewController.swift */; };
+		5255CAB3228807B800D27A3C /* AchievementsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAB2228807B800D27A3C /* AchievementsTableViewCell.swift */; };
+		5255CAB72288212700D27A3C /* APIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAB52288212700D27A3C /* APIManagerProtocol.swift */; };
+		5255CAB82288212700D27A3C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAB62288212700D27A3C /* APIManager.swift */; };
+		5255CAC322884DBE00D27A3C /* FoundedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAC222884DBE00D27A3C /* FoundedItem.swift */; };
+		5255CAC722884EF900D27A3C /* DataBaseManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAC522884EF900D27A3C /* DataBaseManagerProtocol.swift */; };
+		5255CAC822884EF900D27A3C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAC622884EF900D27A3C /* DataBaseManager.swift */; };
 		527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91D8227C2A960095F992 /* VideoViewOutput.swift */; };
 		527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DA227C2AA40095F992 /* VideoViewInput.swift */; };
 		527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DE227C2ACF0095F992 /* VideoViewController.swift */; };
@@ -21,6 +49,26 @@
 		529469022282D9840039F3E5 /* MenuViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529468FF2282D9840039F3E5 /* MenuViewInput.swift */; };
 		529469032282D9840039F3E5 /* MenuViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529469002282D9840039F3E5 /* MenuViewOutput.swift */; };
 		529469042282D9840039F3E5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529469012282D9840039F3E5 /* MenuViewController.swift */; };
+		52946917228433E70039F3E5 /* EyesightCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946914228433E70039F3E5 /* EyesightCheckViewController.swift */; };
+		52946918228433E70039F3E5 /* EyesightCheckViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946915228433E70039F3E5 /* EyesightCheckViewInput.swift */; };
+		52946919228433E70039F3E5 /* EyesightCheckViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946916228433E70039F3E5 /* EyesightCheckViewOutput.swift */; };
+		52946920228435AD0039F3E5 /* EyesightCheckRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294691D228435AD0039F3E5 /* EyesightCheckRouter.swift */; };
+		52946921228435AD0039F3E5 /* EyesightCheckRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294691E228435AD0039F3E5 /* EyesightCheckRouterInput.swift */; };
+		52946922228435AD0039F3E5 /* EyesightCheckRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294691F228435AD0039F3E5 /* EyesightCheckRouterOutput.swift */; };
+		52946927228435E50039F3E5 /* EyesightCheckPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946926228435E50039F3E5 /* EyesightCheckPresenter.swift */; };
+		52946929228436450039F3E5 /* EyesightCheckModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */; };
+		52946930228445A00039F3E5 /* EyesightStatisticViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294692D228445A00039F3E5 /* EyesightStatisticViewInput.swift */; };
+		52946931228445A00039F3E5 /* EyesightStatisticViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294692E228445A00039F3E5 /* EyesightStatisticViewOutput.swift */; };
+		52946939228449970039F3E5 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946938228449970039F3E5 /* MenuPresenter.swift */; };
+		5294694722844F870039F3E5 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694422844F870039F3E5 /* MenuRouter.swift */; };
+		5294694822844F870039F3E5 /* MenuRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694522844F870039F3E5 /* MenuRouterOutput.swift */; };
+		5294694922844F870039F3E5 /* MenuRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694622844F870039F3E5 /* MenuRouterInput.swift */; };
+		5294694B228450D70039F3E5 /* MenuScreenModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */; };
+		5294694D2285AF6F0039F3E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694C2285AF6F0039F3E5 /* TableViewController.swift */; };
+		5294694F2285AF8E0039F3E5 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694E2285AF8E0039F3E5 /* ExercisesViewController.swift */; };
+		529469562285CEF70039F3E5 /* ExercisesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529469532285CEF70039F3E5 /* ExercisesViewOutput.swift */; };
+		529469582285CEF70039F3E5 /* ExercisesViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529469552285CEF70039F3E5 /* ExercisesViewInput.swift */; };
+		5294695A2285D9120039F3E5 /* ExercisesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529469592285D9120039F3E5 /* ExercisesTableViewCell.swift */; };
 		52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5E5226622FA004861B3 /* AppDelegate.swift */; };
 		52A6B5EB226622FA004861B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5E9226622FA004861B3 /* Main.storyboard */; };
 		52A6B5ED22662300004861B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5EC22662300004861B3 /* Assets.xcassets */; };
@@ -44,6 +92,34 @@
 		37934CCBC6ECC44189E25E0B /* Pods-EyeExecises.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeExecises.debug.xcconfig"; path = "Target Support Files/Pods-EyeExecises/Pods-EyeExecises.debug.xcconfig"; sourceTree = "<group>"; };
 		3F9FC735F3190EDF2839C0B6 /* Pods_EyeExecises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeExecises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FED1E2D6A40A1D9D01BDEC /* Pods-EyeExecises.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeExecises.release.xcconfig"; path = "Target Support Files/Pods-EyeExecises/Pods-EyeExecises.release.xcconfig"; sourceTree = "<group>"; };
+		5255CA7622871FE300D27A3C /* EyesightStatisticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesightStatisticTableViewCell.swift; sourceTree = "<group>"; };
+		5255CA782287200200D27A3C /* EyesightStatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesightStatisticViewController.swift; sourceTree = "<group>"; };
+		5255CA7B22873E5100D27A3C /* DataBaseManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManagerProtocol.swift; sourceTree = "<group>"; };
+		5255CA7D22873E5D00D27A3C /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		5255CA8022873F4B00D27A3C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5255CA822287404B00D27A3C /* EyesightCheckNoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesightCheckNoteModel.swift; sourceTree = "<group>"; };
+		5255CA842287414300D27A3C /* UsageDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageDateModel.swift; sourceTree = "<group>"; };
+		5255CA862287419200D27A3C /* AchievementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModel.swift; sourceTree = "<group>"; };
+		5255CA8822874AD800D27A3C /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		5255CA8D22875AD100D27A3C /* StatisticViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticViewInput.swift; sourceTree = "<group>"; };
+		5255CA8E22875AD100D27A3C /* StatisticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		5255CA8F22875AD100D27A3C /* StatisticViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticViewOutput.swift; sourceTree = "<group>"; };
+		5255CA9622875B3D00D27A3C /* AchievementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		5255CA9722875B3D00D27A3C /* AchievementsViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsViewInput.swift; sourceTree = "<group>"; };
+		5255CA9822875B3D00D27A3C /* AchievementsViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsViewOutput.swift; sourceTree = "<group>"; };
+		5255CA9F22875B7000D27A3C /* SettingsViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewOutput.swift; sourceTree = "<group>"; };
+		5255CAA022875B7000D27A3C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5255CAA122875B7000D27A3C /* SettingsViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewInput.swift; sourceTree = "<group>"; };
+		5255CAA722876DAB00D27A3C /* StatisticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticTableViewCell.swift; sourceTree = "<group>"; };
+		5255CAAA22876DDB00D27A3C /* ExerciseDetailViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewInput.swift; sourceTree = "<group>"; };
+		5255CAAB22876DDB00D27A3C /* ExerciseDetailViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewOutput.swift; sourceTree = "<group>"; };
+		5255CAAC22876DDB00D27A3C /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
+		5255CAB2228807B800D27A3C /* AchievementsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTableViewCell.swift; sourceTree = "<group>"; };
+		5255CAB52288212700D27A3C /* APIManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerProtocol.swift; sourceTree = "<group>"; };
+		5255CAB62288212700D27A3C /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5255CAC222884DBE00D27A3C /* FoundedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundedItem.swift; sourceTree = "<group>"; };
+		5255CAC522884EF900D27A3C /* DataBaseManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManagerProtocol.swift; sourceTree = "<group>"; };
+		5255CAC622884EF900D27A3C /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		527B91D8227C2A960095F992 /* VideoViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewOutput.swift; sourceTree = "<group>"; };
 		527B91DA227C2AA40095F992 /* VideoViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewInput.swift; sourceTree = "<group>"; };
 		527B91DE227C2ACF0095F992 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +134,26 @@
 		529468FF2282D9840039F3E5 /* MenuViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewInput.swift; sourceTree = "<group>"; };
 		529469002282D9840039F3E5 /* MenuViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewOutput.swift; sourceTree = "<group>"; };
 		529469012282D9840039F3E5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		52946914228433E70039F3E5 /* EyesightCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckViewController.swift; sourceTree = "<group>"; };
+		52946915228433E70039F3E5 /* EyesightCheckViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckViewInput.swift; sourceTree = "<group>"; };
+		52946916228433E70039F3E5 /* EyesightCheckViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckViewOutput.swift; sourceTree = "<group>"; };
+		5294691D228435AD0039F3E5 /* EyesightCheckRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckRouter.swift; sourceTree = "<group>"; };
+		5294691E228435AD0039F3E5 /* EyesightCheckRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckRouterInput.swift; sourceTree = "<group>"; };
+		5294691F228435AD0039F3E5 /* EyesightCheckRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckRouterOutput.swift; sourceTree = "<group>"; };
+		52946926228435E50039F3E5 /* EyesightCheckPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckPresenter.swift; sourceTree = "<group>"; };
+		52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesightCheckModuleConfigurator.swift; sourceTree = "<group>"; };
+		5294692D228445A00039F3E5 /* EyesightStatisticViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightStatisticViewInput.swift; sourceTree = "<group>"; };
+		5294692E228445A00039F3E5 /* EyesightStatisticViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightStatisticViewOutput.swift; sourceTree = "<group>"; };
+		52946938228449970039F3E5 /* MenuPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		5294694422844F870039F3E5 /* MenuRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
+		5294694522844F870039F3E5 /* MenuRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRouterOutput.swift; sourceTree = "<group>"; };
+		5294694622844F870039F3E5 /* MenuRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRouterInput.swift; sourceTree = "<group>"; };
+		5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScreenModuleConfigurator.swift; sourceTree = "<group>"; };
+		5294694C2285AF6F0039F3E5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5294694E2285AF8E0039F3E5 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		529469532285CEF70039F3E5 /* ExercisesViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewOutput.swift; sourceTree = "<group>"; };
+		529469552285CEF70039F3E5 /* ExercisesViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewInput.swift; sourceTree = "<group>"; };
+		529469592285D9120039F3E5 /* ExercisesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewCell.swift; sourceTree = "<group>"; };
 		52A6B5E2226622FA004861B3 /* EyeExecises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeExecises.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A6B5E5226622FA004861B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A6B5EA226622FA004861B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +204,89 @@
 			path = main;
 			sourceTree = "<group>";
 		};
+		5255CA7A22873E3300D27A3C /* dataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				5255CA7B22873E5100D27A3C /* DataBaseManagerProtocol.swift */,
+				5255CA7D22873E5D00D27A3C /* DataBaseManager.swift */,
+			);
+			path = dataBaseManager;
+			sourceTree = "<group>";
+		};
+		5255CA7F22873F0F00D27A3C /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				5255CA8022873F4B00D27A3C /* UserModel.swift */,
+				5255CA822287404B00D27A3C /* EyesightCheckNoteModel.swift */,
+				5255CA842287414300D27A3C /* UsageDateModel.swift */,
+				5255CA862287419200D27A3C /* AchievementModel.swift */,
+				5255CA8822874AD800D27A3C /* ExerciseModel.swift */,
+				5255CAC222884DBE00D27A3C /* FoundedItem.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		5255CA8C22875AD100D27A3C /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				5255CA8D22875AD100D27A3C /* StatisticViewInput.swift */,
+				5255CA8E22875AD100D27A3C /* StatisticViewController.swift */,
+				5255CA8F22875AD100D27A3C /* StatisticViewOutput.swift */,
+				5255CAA722876DAB00D27A3C /* StatisticTableViewCell.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		5255CA9522875B3D00D27A3C /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				5255CA9622875B3D00D27A3C /* AchievementsViewController.swift */,
+				5255CA9722875B3D00D27A3C /* AchievementsViewInput.swift */,
+				5255CA9822875B3D00D27A3C /* AchievementsViewOutput.swift */,
+				5255CAB2228807B800D27A3C /* AchievementsTableViewCell.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		5255CA9E22875B7000D27A3C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5255CA9F22875B7000D27A3C /* SettingsViewOutput.swift */,
+				5255CAA022875B7000D27A3C /* SettingsViewController.swift */,
+				5255CAA122875B7000D27A3C /* SettingsViewInput.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5255CAA922876DDB00D27A3C /* ExerciseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5255CAAA22876DDB00D27A3C /* ExerciseDetailViewInput.swift */,
+				5255CAAB22876DDB00D27A3C /* ExerciseDetailViewOutput.swift */,
+				5255CAAC22876DDB00D27A3C /* ExerciseDetailViewController.swift */,
+			);
+			path = ExerciseDetail;
+			sourceTree = "<group>";
+		};
+		5255CAB42288212700D27A3C /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				5255CAB52288212700D27A3C /* APIManagerProtocol.swift */,
+				5255CAB62288212700D27A3C /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		5255CAC422884EF900D27A3C /* dataBase */ = {
+			isa = PBXGroup;
+			children = (
+				5255CAC522884EF900D27A3C /* DataBaseManagerProtocol.swift */,
+				5255CAC622884EF900D27A3C /* DataBaseManager.swift */,
+			);
+			name = dataBase;
+			path = EyeExecises/dataBase;
+			sourceTree = SOURCE_ROOT;
+		};
 		527B91D7227C2A750095F992 /* video */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +315,69 @@
 				529469002282D9840039F3E5 /* MenuViewOutput.swift */,
 			);
 			path = menu;
+			sourceTree = "<group>";
+		};
+		52946910228432940039F3E5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */,
+				52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */,
+				52A6B6082266274D004861B3 /* MainScreenRouter.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		52946913228433E70039F3E5 /* eyesightCheck */ = {
+			isa = PBXGroup;
+			children = (
+				52946914228433E70039F3E5 /* EyesightCheckViewController.swift */,
+				52946915228433E70039F3E5 /* EyesightCheckViewInput.swift */,
+				52946916228433E70039F3E5 /* EyesightCheckViewOutput.swift */,
+			);
+			path = eyesightCheck;
+			sourceTree = "<group>";
+		};
+		5294691C228435AD0039F3E5 /* eyesightCheck */ = {
+			isa = PBXGroup;
+			children = (
+				5294691D228435AD0039F3E5 /* EyesightCheckRouter.swift */,
+				5294691E228435AD0039F3E5 /* EyesightCheckRouterInput.swift */,
+				5294691F228435AD0039F3E5 /* EyesightCheckRouterOutput.swift */,
+			);
+			path = eyesightCheck;
+			sourceTree = "<group>";
+		};
+		5294692C228445A00039F3E5 /* eyesightStatistic */ = {
+			isa = PBXGroup;
+			children = (
+				5294692D228445A00039F3E5 /* EyesightStatisticViewInput.swift */,
+				5294692E228445A00039F3E5 /* EyesightStatisticViewOutput.swift */,
+				5294694C2285AF6F0039F3E5 /* TableViewController.swift */,
+				5255CA7622871FE300D27A3C /* EyesightStatisticTableViewCell.swift */,
+				5255CA782287200200D27A3C /* EyesightStatisticViewController.swift */,
+			);
+			path = eyesightStatistic;
+			sourceTree = "<group>";
+		};
+		5294694322844F870039F3E5 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				5294694422844F870039F3E5 /* MenuRouter.swift */,
+				5294694522844F870039F3E5 /* MenuRouterOutput.swift */,
+				5294694622844F870039F3E5 /* MenuRouterInput.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		529469522285CEF60039F3E5 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				529469532285CEF70039F3E5 /* ExercisesViewOutput.swift */,
+				529469552285CEF70039F3E5 /* ExercisesViewInput.swift */,
+				5294694E2285AF8E0039F3E5 /* ExercisesViewController.swift */,
+				529469592285D9120039F3E5 /* ExercisesTableViewCell.swift */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 		52A6B5D9226622FA004861B3 = {
@@ -173,7 +415,13 @@
 		52A6B5F92266274D004861B3 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
+				5255CAC422884EF900D27A3C /* dataBase */,
+				5255CAB42288212700D27A3C /* APIManager */,
+				5255CA7F22873F0F00D27A3C /* entities */,
+				5255CA7A22873E3300D27A3C /* dataBaseManager */,
+				5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */,
 				52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */,
+				52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */,
 				527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */,
 				52A6B5FA2266274D004861B3 /* Presenter */,
 				52A6B5FD2266274D004861B3 /* View */,
@@ -186,8 +434,10 @@
 		52A6B5FA2266274D004861B3 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				52946938228449970039F3E5 /* MenuPresenter.swift */,
 				52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */,
 				527B91E0227C2EE00095F992 /* VideoPresenter.swift */,
+				52946926228435E50039F3E5 /* EyesightCheckPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -195,6 +445,13 @@
 		52A6B5FD2266274D004861B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5255CAA922876DDB00D27A3C /* ExerciseDetail */,
+				5255CA9E22875B7000D27A3C /* Settings */,
+				5255CA9522875B3D00D27A3C /* Achievements */,
+				5255CA8C22875AD100D27A3C /* Statistic */,
+				529469522285CEF60039F3E5 /* Exercises */,
+				5294692C228445A00039F3E5 /* eyesightStatistic */,
+				52946913228433E70039F3E5 /* eyesightCheck */,
 				529468FE2282D94D0039F3E5 /* menu */,
 				527B91D7227C2A750095F992 /* video */,
 				52A6B61F22664B82004861B3 /* base */,
@@ -215,9 +472,9 @@
 		52A6B6052266274D004861B3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */,
-				52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */,
-				52A6B6082266274D004861B3 /* MainScreenRouter.swift */,
+				5294694322844F870039F3E5 /* menu */,
+				5294691C228435AD0039F3E5 /* eyesightCheck */,
+				52946910228432940039F3E5 /* main */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -262,6 +519,7 @@
 				52A6B5DE226622FA004861B3 /* Sources */,
 				52A6B5DF226622FA004861B3 /* Frameworks */,
 				52A6B5E0226622FA004861B3 /* Resources */,
+				7F5D6DCEE63459AE8864B717 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,6 +577,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7F5D6DCEE63459AE8864B717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeExecises/Pods-EyeExecises-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeExecises/Pods-EyeExecises-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B5F241B98A6FDD000C7F69E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,30 +637,78 @@
 				529468CA2281ACE50039F3E5 /* MainScreenInteractor.swift in Sources */,
 				52A6B61B22664AB3004861B3 /* MainScreenViewOutput.swift in Sources */,
 				52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */,
+				5255CA9A22875B3E00D27A3C /* AchievementsViewInput.swift in Sources */,
+				5255CA792287200200D27A3C /* EyesightStatisticViewController.swift in Sources */,
 				52A6B615226628D4004861B3 /* GradientView.swift in Sources */,
+				5294694922844F870039F3E5 /* MenuRouterInput.swift in Sources */,
+				5255CAA322875B7000D27A3C /* SettingsViewController.swift in Sources */,
 				527B91E7227C2F210095F992 /* VideoInteractorInput.swift in Sources */,
 				527B91E5227C2F110095F992 /* VideoInteractor.swift in Sources */,
+				5294694822844F870039F3E5 /* MenuRouterOutput.swift in Sources */,
+				5255CAAF22876DDB00D27A3C /* ExerciseDetailViewController.swift in Sources */,
+				529469562285CEF70039F3E5 /* ExercisesViewOutput.swift in Sources */,
+				5255CA9B22875B3E00D27A3C /* AchievementsViewOutput.swift in Sources */,
 				527B91E1227C2EE00095F992 /* VideoPresenter.swift in Sources */,
+				5255CA872287419200D27A3C /* AchievementModel.swift in Sources */,
+				5255CA852287414300D27A3C /* UsageDateModel.swift in Sources */,
+				52946920228435AD0039F3E5 /* EyesightCheckRouter.swift in Sources */,
+				52946930228445A00039F3E5 /* EyesightStatisticViewInput.swift in Sources */,
+				5255CAC822884EF900D27A3C /* DataBaseManager.swift in Sources */,
 				527B91ED227C37DD0095F992 /* VideoModuleConfigurator.swift in Sources */,
+				52946919228433E70039F3E5 /* EyesightCheckViewOutput.swift in Sources */,
+				52946939228449970039F3E5 /* MenuPresenter.swift in Sources */,
+				52946921228435AD0039F3E5 /* EyesightCheckRouterInput.swift in Sources */,
 				52A6B61C22664AB3004861B3 /* MainScreenViewInput.swift in Sources */,
+				5255CA8122873F4B00D27A3C /* UserModel.swift in Sources */,
 				52A6B62522664B83004861B3 /* BaseViewInput.swift in Sources */,
+				5294694D2285AF6F0039F3E5 /* TableViewController.swift in Sources */,
+				52946927228435E50039F3E5 /* EyesightCheckPresenter.swift in Sources */,
+				5255CA9922875B3E00D27A3C /* AchievementsViewController.swift in Sources */,
 				527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */,
 				52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */,
 				52A6B61D22664AB3004861B3 /* MainScreenViewController.swift in Sources */,
+				52946917228433E70039F3E5 /* EyesightCheckViewController.swift in Sources */,
 				529468CB2281ACE50039F3E5 /* MainScreenInteractorInput.swift in Sources */,
+				5255CA9122875AD100D27A3C /* StatisticViewController.swift in Sources */,
+				5255CAA422875B7000D27A3C /* SettingsViewInput.swift in Sources */,
+				5255CAA222875B7000D27A3C /* SettingsViewOutput.swift in Sources */,
+				5255CA832287404B00D27A3C /* EyesightCheckNoteModel.swift in Sources */,
 				527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */,
 				529469022282D9840039F3E5 /* MenuViewInput.swift in Sources */,
+				5294695A2285D9120039F3E5 /* ExercisesTableViewCell.swift in Sources */,
+				5255CA7722871FE300D27A3C /* EyesightStatisticTableViewCell.swift in Sources */,
+				5255CA7C22873E5100D27A3C /* DataBaseManagerProtocol.swift in Sources */,
 				52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */,
 				52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */,
+				5294694B228450D70039F3E5 /* MenuScreenModuleConfigurator.swift in Sources */,
 				52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */,
+				5255CA8922874AD800D27A3C /* ExerciseModel.swift in Sources */,
+				5255CAB82288212700D27A3C /* APIManager.swift in Sources */,
+				5255CA9022875AD100D27A3C /* StatisticViewInput.swift in Sources */,
+				5255CAA822876DAB00D27A3C /* StatisticTableViewCell.swift in Sources */,
+				52946931228445A00039F3E5 /* EyesightStatisticViewOutput.swift in Sources */,
+				5255CAB72288212700D27A3C /* APIManagerProtocol.swift in Sources */,
+				52946922228435AD0039F3E5 /* EyesightCheckRouterOutput.swift in Sources */,
+				5255CA9222875AD100D27A3C /* StatisticViewOutput.swift in Sources */,
+				52946929228436450039F3E5 /* EyesightCheckModuleConfigurator.swift in Sources */,
 				527B91E9227C2F2C0095F992 /* VideoInteractorOutput.swift in Sources */,
 				527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */,
+				5255CAC722884EF900D27A3C /* DataBaseManagerProtocol.swift in Sources */,
+				5255CA7E22873E5D00D27A3C /* DataBaseManager.swift in Sources */,
 				529468CC2281ACE50039F3E5 /* MainScreenInteractorOutput.swift in Sources */,
+				5255CAC322884DBE00D27A3C /* FoundedItem.swift in Sources */,
 				529469042282D9840039F3E5 /* MenuViewController.swift in Sources */,
+				5294694722844F870039F3E5 /* MenuRouter.swift in Sources */,
 				52A6B62422664B83004861B3 /* BaseViewController.swift in Sources */,
+				5255CAB3228807B800D27A3C /* AchievementsTableViewCell.swift in Sources */,
+				5255CAAE22876DDB00D27A3C /* ExerciseDetailViewOutput.swift in Sources */,
 				52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */,
 				529469032282D9840039F3E5 /* MenuViewOutput.swift in Sources */,
+				5294694F2285AF8E0039F3E5 /* ExercisesViewController.swift in Sources */,
+				5255CAAD22876DDB00D27A3C /* ExerciseDetailViewInput.swift in Sources */,
+				52946918228433E70039F3E5 /* EyesightCheckViewInput.swift in Sources */,
 				52A6B62322664B83004861B3 /* BaseViewOutput.swift in Sources */,
+				529469582285CEF70039F3E5 /* ExercisesViewInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

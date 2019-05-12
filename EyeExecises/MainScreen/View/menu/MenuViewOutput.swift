@@ -10,4 +10,13 @@ import Foundation
 
 protocol MenuViewOutput: AnyObject {
     
+    func showExercises()
+    
+    func showEyesightCheckPage()
+    
+    func showStatisticPage()
+    
+    func showAchievements()
+    
+    func showSettings() 
 }
