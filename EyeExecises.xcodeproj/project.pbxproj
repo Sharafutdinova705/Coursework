@@ -33,8 +33,6 @@
 		5255CAB72288212700D27A3C /* APIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAB52288212700D27A3C /* APIManagerProtocol.swift */; };
 		5255CAB82288212700D27A3C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAB62288212700D27A3C /* APIManager.swift */; };
 		5255CAC322884DBE00D27A3C /* FoundedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAC222884DBE00D27A3C /* FoundedItem.swift */; };
-		5255CAC722884EF900D27A3C /* DataBaseManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAC522884EF900D27A3C /* DataBaseManagerProtocol.swift */; };
-		5255CAC822884EF900D27A3C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAC622884EF900D27A3C /* DataBaseManager.swift */; };
 		527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91D8227C2A960095F992 /* VideoViewOutput.swift */; };
 		527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DA227C2AA40095F992 /* VideoViewInput.swift */; };
 		527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DE227C2ACF0095F992 /* VideoViewController.swift */; };
@@ -118,8 +116,6 @@
 		5255CAB52288212700D27A3C /* APIManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerProtocol.swift; sourceTree = "<group>"; };
 		5255CAB62288212700D27A3C /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		5255CAC222884DBE00D27A3C /* FoundedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundedItem.swift; sourceTree = "<group>"; };
-		5255CAC522884EF900D27A3C /* DataBaseManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManagerProtocol.swift; sourceTree = "<group>"; };
-		5255CAC622884EF900D27A3C /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		527B91D8227C2A960095F992 /* VideoViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewOutput.swift; sourceTree = "<group>"; };
 		527B91DA227C2AA40095F992 /* VideoViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewInput.swift; sourceTree = "<group>"; };
 		527B91DE227C2ACF0095F992 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -277,16 +273,6 @@
 			path = APIManager;
 			sourceTree = "<group>";
 		};
-		5255CAC422884EF900D27A3C /* dataBase */ = {
-			isa = PBXGroup;
-			children = (
-				5255CAC522884EF900D27A3C /* DataBaseManagerProtocol.swift */,
-				5255CAC622884EF900D27A3C /* DataBaseManager.swift */,
-			);
-			name = dataBase;
-			path = EyeExecises/dataBase;
-			sourceTree = SOURCE_ROOT;
-		};
 		527B91D7227C2A750095F992 /* video */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,7 +401,6 @@
 		52A6B5F92266274D004861B3 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
-				5255CAC422884EF900D27A3C /* dataBase */,
 				5255CAB42288212700D27A3C /* APIManager */,
 				5255CA7F22873F0F00D27A3C /* entities */,
 				5255CA7A22873E3300D27A3C /* dataBaseManager */,
@@ -653,7 +638,6 @@
 				5255CA852287414300D27A3C /* UsageDateModel.swift in Sources */,
 				52946920228435AD0039F3E5 /* EyesightCheckRouter.swift in Sources */,
 				52946930228445A00039F3E5 /* EyesightStatisticViewInput.swift in Sources */,
-				5255CAC822884EF900D27A3C /* DataBaseManager.swift in Sources */,
 				527B91ED227C37DD0095F992 /* VideoModuleConfigurator.swift in Sources */,
 				52946919228433E70039F3E5 /* EyesightCheckViewOutput.swift in Sources */,
 				52946939228449970039F3E5 /* MenuPresenter.swift in Sources */,
@@ -693,7 +677,6 @@
 				52946929228436450039F3E5 /* EyesightCheckModuleConfigurator.swift in Sources */,
 				527B91E9227C2F2C0095F992 /* VideoInteractorOutput.swift in Sources */,
 				527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */,
-				5255CAC722884EF900D27A3C /* DataBaseManagerProtocol.swift in Sources */,
 				5255CA7E22873E5D00D27A3C /* DataBaseManager.swift in Sources */,
 				529468CC2281ACE50039F3E5 /* MainScreenInteractorOutput.swift in Sources */,
 				5255CAC322884DBE00D27A3C /* FoundedItem.swift in Sources */,
