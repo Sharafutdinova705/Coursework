@@ -10,4 +10,9 @@ import Foundation
 
 protocol ExercisesViewInput: AnyObject {
     
+    func initCountOfCoin(count: Int)
+    
+    func updateExercisesArray(array: [ExerciseModel])
+    
+    func buyExercise(index: Int)
 }

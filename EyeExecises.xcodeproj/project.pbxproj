@@ -33,6 +33,14 @@
 		5255CAB72288212700D27A3C /* APIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAB52288212700D27A3C /* APIManagerProtocol.swift */; };
 		5255CAB82288212700D27A3C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAB62288212700D27A3C /* APIManager.swift */; };
 		5255CAC322884DBE00D27A3C /* FoundedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAC222884DBE00D27A3C /* FoundedItem.swift */; };
+		5255CACB2288811200D27A3C /* ExerciseModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CACA2288811200D27A3C /* ExerciseModuleConfigurator.swift */; };
+		5255CACE22898D5B00D27A3C /* ExercisesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CACD22898D5B00D27A3C /* ExercisesPresenter.swift */; };
+		5255CAD522898DA400D27A3C /* ExercisesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAD222898DA400D27A3C /* ExercisesInteractor.swift */; };
+		5255CAD622898DA400D27A3C /* ExercisesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAD322898DA400D27A3C /* ExercisesInteractorOutput.swift */; };
+		5255CAD722898DA400D27A3C /* ExercisesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAD422898DA400D27A3C /* ExercisesInteractorInput.swift */; };
+		5255CADE22898DED00D27A3C /* ExercisesRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CADB22898DED00D27A3C /* ExercisesRouterInput.swift */; };
+		5255CADF22898DED00D27A3C /* ExercisesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CADC22898DED00D27A3C /* ExercisesRouter.swift */; };
+		5255CAE022898DED00D27A3C /* ExercisesRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CADD22898DED00D27A3C /* ExercisesRouterOutput.swift */; };
 		527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91D8227C2A960095F992 /* VideoViewOutput.swift */; };
 		527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DA227C2AA40095F992 /* VideoViewInput.swift */; };
 		527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DE227C2ACF0095F992 /* VideoViewController.swift */; };
@@ -116,6 +124,14 @@
 		5255CAB52288212700D27A3C /* APIManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerProtocol.swift; sourceTree = "<group>"; };
 		5255CAB62288212700D27A3C /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		5255CAC222884DBE00D27A3C /* FoundedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundedItem.swift; sourceTree = "<group>"; };
+		5255CACA2288811200D27A3C /* ExerciseModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModuleConfigurator.swift; sourceTree = "<group>"; };
+		5255CACD22898D5B00D27A3C /* ExercisesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesPresenter.swift; sourceTree = "<group>"; };
+		5255CAD222898DA400D27A3C /* ExercisesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesInteractor.swift; sourceTree = "<group>"; };
+		5255CAD322898DA400D27A3C /* ExercisesInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesInteractorOutput.swift; sourceTree = "<group>"; };
+		5255CAD422898DA400D27A3C /* ExercisesInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesInteractorInput.swift; sourceTree = "<group>"; };
+		5255CADB22898DED00D27A3C /* ExercisesRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesRouterInput.swift; sourceTree = "<group>"; };
+		5255CADC22898DED00D27A3C /* ExercisesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesRouter.swift; sourceTree = "<group>"; };
+		5255CADD22898DED00D27A3C /* ExercisesRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesRouterOutput.swift; sourceTree = "<group>"; };
 		527B91D8227C2A960095F992 /* VideoViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewOutput.swift; sourceTree = "<group>"; };
 		527B91DA227C2AA40095F992 /* VideoViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewInput.swift; sourceTree = "<group>"; };
 		527B91DE227C2ACF0095F992 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -273,6 +289,38 @@
 			path = APIManager;
 			sourceTree = "<group>";
 		};
+		5255CACC22898D2500D27A3C /* configurators */ = {
+			isa = PBXGroup;
+			children = (
+				5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */,
+				5255CACA2288811200D27A3C /* ExerciseModuleConfigurator.swift */,
+				52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */,
+				52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */,
+				527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */,
+			);
+			path = configurators;
+			sourceTree = "<group>";
+		};
+		5255CAD122898DA400D27A3C /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				5255CAD222898DA400D27A3C /* ExercisesInteractor.swift */,
+				5255CAD322898DA400D27A3C /* ExercisesInteractorOutput.swift */,
+				5255CAD422898DA400D27A3C /* ExercisesInteractorInput.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		5255CADA22898DED00D27A3C /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				5255CADB22898DED00D27A3C /* ExercisesRouterInput.swift */,
+				5255CADC22898DED00D27A3C /* ExercisesRouter.swift */,
+				5255CADD22898DED00D27A3C /* ExercisesRouterOutput.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
 		527B91D7227C2A750095F992 /* video */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,13 +449,10 @@
 		52A6B5F92266274D004861B3 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
+				5255CACC22898D2500D27A3C /* configurators */,
+				5255CA7A22873E3300D27A3C /* dataBaseManager */,
 				5255CAB42288212700D27A3C /* APIManager */,
 				5255CA7F22873F0F00D27A3C /* entities */,
-				5255CA7A22873E3300D27A3C /* dataBaseManager */,
-				5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */,
-				52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */,
-				52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */,
-				527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */,
 				52A6B5FA2266274D004861B3 /* Presenter */,
 				52A6B5FD2266274D004861B3 /* View */,
 				52A6B6012266274D004861B3 /* Interactor */,
@@ -423,6 +468,7 @@
 				52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */,
 				527B91E0227C2EE00095F992 /* VideoPresenter.swift */,
 				52946926228435E50039F3E5 /* EyesightCheckPresenter.swift */,
+				5255CACD22898D5B00D27A3C /* ExercisesPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -448,6 +494,7 @@
 		52A6B6012266274D004861B3 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				5255CAD122898DA400D27A3C /* Exercises */,
 				520EE5542281ABB90088C442 /* main */,
 				527B91E3227C2EFA0095F992 /* video */,
 			);
@@ -457,6 +504,7 @@
 		52A6B6052266274D004861B3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				5255CADA22898DED00D27A3C /* Exercises */,
 				5294694322844F870039F3E5 /* menu */,
 				5294691C228435AD0039F3E5 /* eyesightCheck */,
 				52946910228432940039F3E5 /* main */,
@@ -619,6 +667,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5255CAE022898DED00D27A3C /* ExercisesRouterOutput.swift in Sources */,
 				529468CA2281ACE50039F3E5 /* MainScreenInteractor.swift in Sources */,
 				52A6B61B22664AB3004861B3 /* MainScreenViewOutput.swift in Sources */,
 				52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */,
@@ -630,12 +679,15 @@
 				527B91E7227C2F210095F992 /* VideoInteractorInput.swift in Sources */,
 				527B91E5227C2F110095F992 /* VideoInteractor.swift in Sources */,
 				5294694822844F870039F3E5 /* MenuRouterOutput.swift in Sources */,
+				5255CAD722898DA400D27A3C /* ExercisesInteractorInput.swift in Sources */,
 				5255CAAF22876DDB00D27A3C /* ExerciseDetailViewController.swift in Sources */,
 				529469562285CEF70039F3E5 /* ExercisesViewOutput.swift in Sources */,
 				5255CA9B22875B3E00D27A3C /* AchievementsViewOutput.swift in Sources */,
 				527B91E1227C2EE00095F992 /* VideoPresenter.swift in Sources */,
 				5255CA872287419200D27A3C /* AchievementModel.swift in Sources */,
+				5255CAD622898DA400D27A3C /* ExercisesInteractorOutput.swift in Sources */,
 				5255CA852287414300D27A3C /* UsageDateModel.swift in Sources */,
+				5255CACE22898D5B00D27A3C /* ExercisesPresenter.swift in Sources */,
 				52946920228435AD0039F3E5 /* EyesightCheckRouter.swift in Sources */,
 				52946930228445A00039F3E5 /* EyesightStatisticViewInput.swift in Sources */,
 				527B91ED227C37DD0095F992 /* VideoModuleConfigurator.swift in Sources */,
@@ -643,6 +695,7 @@
 				52946939228449970039F3E5 /* MenuPresenter.swift in Sources */,
 				52946921228435AD0039F3E5 /* EyesightCheckRouterInput.swift in Sources */,
 				52A6B61C22664AB3004861B3 /* MainScreenViewInput.swift in Sources */,
+				5255CACB2288811200D27A3C /* ExerciseModuleConfigurator.swift in Sources */,
 				5255CA8122873F4B00D27A3C /* UserModel.swift in Sources */,
 				52A6B62522664B83004861B3 /* BaseViewInput.swift in Sources */,
 				5294694D2285AF6F0039F3E5 /* TableViewController.swift in Sources */,
@@ -664,6 +717,7 @@
 				5255CA7C22873E5100D27A3C /* DataBaseManagerProtocol.swift in Sources */,
 				52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */,
 				52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */,
+				5255CADE22898DED00D27A3C /* ExercisesRouterInput.swift in Sources */,
 				5294694B228450D70039F3E5 /* MenuScreenModuleConfigurator.swift in Sources */,
 				52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */,
 				5255CA8922874AD800D27A3C /* ExerciseModel.swift in Sources */,
@@ -687,8 +741,10 @@
 				5255CAAE22876DDB00D27A3C /* ExerciseDetailViewOutput.swift in Sources */,
 				52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */,
 				529469032282D9840039F3E5 /* MenuViewOutput.swift in Sources */,
+				5255CAD522898DA400D27A3C /* ExercisesInteractor.swift in Sources */,
 				5294694F2285AF8E0039F3E5 /* ExercisesViewController.swift in Sources */,
 				5255CAAD22876DDB00D27A3C /* ExerciseDetailViewInput.swift in Sources */,
+				5255CADF22898DED00D27A3C /* ExercisesRouter.swift in Sources */,
 				52946918228433E70039F3E5 /* EyesightCheckViewInput.swift in Sources */,
 				52A6B62322664B83004861B3 /* BaseViewOutput.swift in Sources */,
 				529469582285CEF70039F3E5 /* ExercisesViewInput.swift in Sources */,

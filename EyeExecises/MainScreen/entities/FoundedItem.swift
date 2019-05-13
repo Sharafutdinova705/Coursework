@@ -29,8 +29,10 @@ extension FoundedItem: JSONDecodable {
         self.imagepath = ""
         if let attachments = JSON["attachments"] as? [[String:AnyObject]] {
             if let photo = attachments.first!["photo"] as? [String:AnyObject] {
-                if let photo1024 = photo["photo_1280"] as? String {
-                    self.imagepath = photo1024
+                if let sizes = photo["sizes"] as? [[String:AnyObject]] {
+                    if let size = sizes.last {
+                        self.imagepath = size["url"] as! String
+                    }
                 }
             }
         }

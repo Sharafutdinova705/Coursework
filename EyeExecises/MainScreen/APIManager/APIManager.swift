@@ -24,7 +24,7 @@ enum RequestType: FinalURLPoint {
         switch self {
             
         case .current():
-            return "owner_id=-182232110&count=1&filter=all&v=5.92&access_token=2cce2b0800e4152506445dcddaf4677cb82d13a306a9db8c9485d1125550d2d1f07977fcde06bfbe5c3dd"
+            return "owner_id=-182232110&filter=all&v=5.92&access_token=4aa353f57027c8c48066770dafc2ce9d7b3c4cf6246047a41bc7738b9fd3b1db5508f6fb8013f57dfbe30"
         }
     }
     
@@ -67,7 +67,6 @@ class APIManager: APIManagerProtocol {
                 var founded: [FoundedItem] = []
                 
                 for item in dictionary {
-                    founded.append(FoundedItem(JSON: (item))!)
                     founded.append(FoundedItem(JSON: (item))!)
                 }
                 return founded

@@ -1003,7 +1003,7 @@
             </objects>
             <point key="canvasLocation" x="2166" y="2748"/>
         </scene>
-        <!--Exercises View Controller-->
+        <!--View Controller-->
         <scene sceneID="4FF-LS-MQJ">
             <objects>
                 <viewController id="JrU-Mb-ykJ" customClass="ExercisesViewController" customModule="EyeExecises" customModuleProvider="target" sceneMemberID="viewController">
@@ -1018,27 +1018,21 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="128" id="3oj-5K-9eZ" customClass="ExercisesTableViewCell" customModule="EyeExecises" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="128"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3oj-5K-9eZ" id="ART-4D-qJk">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3oj-5K-9eZ" id="ART-4D-qJk">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="127.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCl-2r-V6F">
-                                                    <rect key="frame" x="31" y="11" width="281" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vq-pw-07i">
-                                                    <rect key="frame" x="31" y="40" width="281" height="20.5"/>
+                                                    <rect key="frame" x="31" y="27.5" width="281" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DZw-oK-5bZ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="127.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="128.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy for 300$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUz-Yq-ncK">
-                                                            <rect key="frame" x="121" y="53.5" width="101" height="21"/>
+                                                            <rect key="frame" x="121" y="54" width="101" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -1048,28 +1042,25 @@
                                                     <constraints>
                                                         <constraint firstItem="QUz-Yq-ncK" firstAttribute="centerY" secondItem="DZw-oK-5bZ" secondAttribute="centerY" id="2NO-ER-j8n"/>
                                                         <constraint firstItem="QUz-Yq-ncK" firstAttribute="centerX" secondItem="DZw-oK-5bZ" secondAttribute="centerX" id="7DR-h0-1lS"/>
+                                                        <constraint firstAttribute="height" constant="128" id="J4d-Hk-ezm"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="PCl-2r-V6F" firstAttribute="leading" secondItem="ART-4D-qJk" secondAttribute="leadingMargin" constant="16" id="CZN-9I-yR4"/>
                                                 <constraint firstItem="DZw-oK-5bZ" firstAttribute="leading" secondItem="ART-4D-qJk" secondAttribute="leading" id="DBf-KU-aEy"/>
                                                 <constraint firstAttribute="bottom" secondItem="DZw-oK-5bZ" secondAttribute="bottom" id="EIN-s7-Vbd"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="PCl-2r-V6F" secondAttribute="trailing" constant="16" id="FI7-bM-WQ8"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="3vq-pw-07i" secondAttribute="bottom" constant="8" id="GsP-6P-eEd"/>
-                                                <constraint firstItem="3vq-pw-07i" firstAttribute="top" secondItem="PCl-2r-V6F" secondAttribute="bottom" constant="8" id="PSI-UR-A4x"/>
                                                 <constraint firstAttribute="trailing" secondItem="DZw-oK-5bZ" secondAttribute="trailing" id="Qqb-Tb-oLn"/>
                                                 <constraint firstItem="3vq-pw-07i" firstAttribute="leading" secondItem="ART-4D-qJk" secondAttribute="leadingMargin" constant="16" id="Qwx-To-iC0"/>
+                                                <constraint firstItem="3vq-pw-07i" firstAttribute="top" secondItem="ART-4D-qJk" secondAttribute="topMargin" constant="16" id="aJP-7y-9er"/>
                                                 <constraint firstItem="DZw-oK-5bZ" firstAttribute="top" secondItem="ART-4D-qJk" secondAttribute="top" id="cqa-8u-v0a"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="3vq-pw-07i" secondAttribute="trailing" constant="16" id="kJK-WY-zNy"/>
-                                                <constraint firstItem="PCl-2r-V6F" firstAttribute="top" secondItem="ART-4D-qJk" secondAttribute="topMargin" id="lCk-Ub-1D7"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="descriptionLabel" destination="3vq-pw-07i" id="VTM-yA-Lmq"/>
                                             <outlet property="hiddenExerciseView" destination="DZw-oK-5bZ" id="wDU-yT-4QV"/>
                                             <outlet property="priceOfExerciseLabel" destination="QUz-Yq-ncK" id="a84-P7-aGv"/>
-                                            <outlet property="titleLabel" destination="PCl-2r-V6F" id="h2s-i1-2T9"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1092,12 +1083,21 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="1Ne-de-Ro2">
+                        <barButtonItem key="rightBarButtonItem" title="Coin" id="cMa-l9-SVC"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="countOfCoin" destination="cMa-l9-SVC" id="nYn-BJ-t5H"/>
                         <outlet property="tableView" destination="HQM-hO-eIU" id="DPp-hj-4WV"/>
-                        <segue destination="8Ck-uM-iEP" kind="show" id="43n-Of-Oh0"/>
+                        <segue destination="8Ck-uM-iEP" kind="show" identifier="toExerciseDetailVC" id="43n-Of-Oh0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UuX-TF-2TQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="2ys-Rn-i92" customClass="ExerciseModuleConfigurator" customModule="EyeExecises" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="JrU-Mb-ykJ" id="Xtk-2t-7qW"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="1484" y="2022"/>
         </scene>

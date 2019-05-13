@@ -10,7 +10,6 @@ import UIKit
 
 class ExercisesTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var hiddenExerciseView: UIView!
     @IBOutlet weak var priceOfExerciseLabel: UILabel!

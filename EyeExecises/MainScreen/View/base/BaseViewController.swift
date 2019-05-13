@@ -12,9 +12,12 @@ class BaseViewController: UIViewController {
     
     @IBOutlet weak var menuConstraint: NSLayoutConstraint!
     var isMenuHidden = true
+    var dataBaseManager = DataBaseManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        initData()
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(menuButtonPressed),
@@ -63,6 +66,18 @@ class BaseViewController: UIViewController {
         
         UIView.animate(withDuration: 0.3) {
             self.view.layoutIfNeeded()
+        }
+    }
+    
+    func initData() {
+        
+        dataBaseManager.clearAll()
+        if dataBaseManager.obtainCoins() == nil {
+           
+            let userModel = UserModel()
+            userModel.id = 1
+            userModel.coin = 10000000
+            dataBaseManager.saveItem(item: userModel)
         }
     }
     

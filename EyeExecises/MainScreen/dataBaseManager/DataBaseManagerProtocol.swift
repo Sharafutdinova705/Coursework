@@ -7,8 +7,25 @@
 //
 
 import Foundation
+import RealmSwift
 
 protocol DataBaseManagerProtocol: AnyObject {
     
+    func clearAll()
     
+    func saveItem(item: Object)
+    
+    func updateItem(item: Object)
+    
+    func obtainCoins() -> UserModel?
+    
+    func obtainExercises() -> [ExerciseModel]
+    
+    func obtainEyesightCheck() -> [EyesightCheckNoteModel]
+    
+    func obtainUsageDate() -> [UsageDateModel]
+    
+    func obtainAchievements() -> [AchievementModel]
+    
+    func performTransaction(transaction: () -> ())
 }

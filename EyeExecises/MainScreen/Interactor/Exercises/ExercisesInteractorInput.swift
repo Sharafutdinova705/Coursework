@@ -1,14 +1,14 @@
 //
-//  ExercisesViewOutput.swift
+//  ExercisesInteractorInput.swift
 //  EyeExecises
 //
-//  Created by Гузель on 10/05/2019.
+//  Created by Гузель on 13/05/2019.
 //  Copyright © 2019 Гузель. All rights reserved.
 //
 
 import Foundation
 
-protocol ExercisesViewOutput: AnyObject {
+protocol ExercisesInteractorInput: AnyObject {
     
     func getCountOfCoin()
     
@@ -18,7 +18,5 @@ protocol ExercisesViewOutput: AnyObject {
     
     func getAllExercises()
     
-    func buyExercise(index: Int, array: [ExerciseModel])
-    
-    func showBuyingAlert(cell: ExercisesTableViewCell, index: Int, currentCountOfCoin: Int)
+    func buyExercise(index: Int, array: [ExerciseModel]) 
 }
