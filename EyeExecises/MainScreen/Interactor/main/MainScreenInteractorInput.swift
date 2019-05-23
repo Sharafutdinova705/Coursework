@@ -10,4 +10,5 @@ import Foundation
 
 protocol MainScreenInteractorInput: AnyObject {
     
+    func obtainCountOfCoin()
 }

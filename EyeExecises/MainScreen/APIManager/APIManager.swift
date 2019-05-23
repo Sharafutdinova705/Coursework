@@ -24,7 +24,7 @@ enum RequestType: FinalURLPoint {
         switch self {
             
         case .current():
-            return "owner_id=-182232110&filter=all&v=5.92&access_token=4aa353f57027c8c48066770dafc2ce9d7b3c4cf6246047a41bc7738b9fd3b1db5508f6fb8013f57dfbe30"
+            return "owner_id=-182232110&filter=all&v=5.92&access_token=d65e5a0cf74021802937d7edfd8cbada7bdbb9d5dec471cebcf00893b8d038c42aa38c8cc74edef3ea9d1"
         }
     }
     
@@ -62,7 +62,7 @@ class APIManager: APIManagerProtocol {
         let request = RequestType.current().request
         
         fetch(request: request, parse: { (json) -> [FoundedItem]? in
-            print(request)
+            
             if let dictionary = json["response"]!["items"] as? [[String: AnyObject]] {
                 var founded: [FoundedItem] = []
                 

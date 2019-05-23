@@ -12,4 +12,6 @@ import UIKit
 protocol VideoViewOutput: AnyObject {
 
     func doExercises(selfView: UIView, circleView: UIView)
+    
+    func updateCountOfCoin(coin: Int)
 }

@@ -10,4 +10,9 @@ import Foundation
 
 protocol AchievementsViewOutput: AnyObject {
     
+    func getAllAchievements()
+    
+    func check(index: Int)
+    
+    func obtainCountOfCoin()
 }

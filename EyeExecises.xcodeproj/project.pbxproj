@@ -41,6 +41,35 @@
 		5255CADE22898DED00D27A3C /* ExercisesRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CADB22898DED00D27A3C /* ExercisesRouterInput.swift */; };
 		5255CADF22898DED00D27A3C /* ExercisesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CADC22898DED00D27A3C /* ExercisesRouter.swift */; };
 		5255CAE022898DED00D27A3C /* ExercisesRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CADD22898DED00D27A3C /* ExercisesRouterOutput.swift */; };
+		5255CAE72289D67800D27A3C /* EyesightCheckInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAE42289D67800D27A3C /* EyesightCheckInteractorOutput.swift */; };
+		5255CAE82289D67800D27A3C /* EyesightCheckInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAE52289D67800D27A3C /* EyesightCheckInteractor.swift */; };
+		5255CAE92289D67800D27A3C /* EyesightCheckInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAE62289D67800D27A3C /* EyesightCheckInteractorInput.swift */; };
+		5255CAEB2289DA5300D27A3C /* EyesightStatisticPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAEA2289DA5300D27A3C /* EyesightStatisticPresenter.swift */; };
+		5255CAF22289DA8A00D27A3C /* EyesightStatisticInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAEF2289DA8A00D27A3C /* EyesightStatisticInteractorInput.swift */; };
+		5255CAF32289DA8A00D27A3C /* EyesightStatisticInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAF02289DA8A00D27A3C /* EyesightStatisticInteractorOutput.swift */; };
+		5255CAF42289DA8A00D27A3C /* EyesightStatisticInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAF12289DA8A00D27A3C /* EyesightStatisticInteractor.swift */; };
+		5255CAF62289DF2C00D27A3C /* EyesightStatisticConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAF52289DF2C00D27A3C /* EyesightStatisticConfigurator.swift */; };
+		5255CAFD2289E26400D27A3C /* StatisticInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAFA2289E26300D27A3C /* StatisticInteractorOutput.swift */; };
+		5255CAFE2289E26400D27A3C /* StatisticInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAFB2289E26300D27A3C /* StatisticInteractorInput.swift */; };
+		5255CAFF2289E26400D27A3C /* StatisticInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CAFC2289E26300D27A3C /* StatisticInteractor.swift */; };
+		5255CB012289E27400D27A3C /* StatisticPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB002289E27400D27A3C /* StatisticPresenter.swift */; };
+		5255CB032289E28200D27A3C /* StatisticConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB022289E28200D27A3C /* StatisticConfigurator.swift */; };
+		5255CB0A228A0FD800D27A3C /* AchievementsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB07228A0FD800D27A3C /* AchievementsInteractorInput.swift */; };
+		5255CB0B228A0FD800D27A3C /* AchievementsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB08228A0FD800D27A3C /* AchievementsInteractor.swift */; };
+		5255CB0C228A0FD800D27A3C /* AchievementsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB09228A0FD800D27A3C /* AchievementsInteractorOutput.swift */; };
+		5255CB0E228A0FF300D27A3C /* AchievementPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB0D228A0FF300D27A3C /* AchievementPresenter.swift */; };
+		5255CB15228A1BBB00D27A3C /* AchievementsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB12228A1BBA00D27A3C /* AchievementsRouterInput.swift */; };
+		5255CB16228A1BBB00D27A3C /* AchievementsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB13228A1BBA00D27A3C /* AchievementsRouter.swift */; };
+		5255CB17228A1BBB00D27A3C /* AchievementsRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB14228A1BBA00D27A3C /* AchievementsRouterOutput.swift */; };
+		5255CB19228A99D700D27A3C /* AchievementsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB18228A99D700D27A3C /* AchievementsModuleConfigurator.swift */; };
+		5255CB1B228AB19200D27A3C /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB1A228AB19200D27A3C /* SettingsPresenter.swift */; };
+		5255CB22228AB1CA00D27A3C /* SettingsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB1F228AB1CA00D27A3C /* SettingsInteractorOutput.swift */; };
+		5255CB23228AB1CA00D27A3C /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB20228AB1CA00D27A3C /* SettingsInteractor.swift */; };
+		5255CB24228AB1CA00D27A3C /* SettingsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB21228AB1CA00D27A3C /* SettingsInteractorInput.swift */; };
+		5255CB26228AB34D00D27A3C /* SettingsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB25228AB34D00D27A3C /* SettingsModuleConfigurator.swift */; };
+		5255CB2D228AB66B00D27A3C /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB2A228AB66B00D27A3C /* SettingsRouter.swift */; };
+		5255CB2E228AB66B00D27A3C /* SettingsRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB2B228AB66B00D27A3C /* SettingsRouterOutput.swift */; };
+		5255CB2F228AB66B00D27A3C /* SettingsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255CB2C228AB66B00D27A3C /* SettingsRouterInput.swift */; };
 		527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91D8227C2A960095F992 /* VideoViewOutput.swift */; };
 		527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DA227C2AA40095F992 /* VideoViewInput.swift */; };
 		527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B91DE227C2ACF0095F992 /* VideoViewController.swift */; };
@@ -65,12 +94,6 @@
 		52946929228436450039F3E5 /* EyesightCheckModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */; };
 		52946930228445A00039F3E5 /* EyesightStatisticViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294692D228445A00039F3E5 /* EyesightStatisticViewInput.swift */; };
 		52946931228445A00039F3E5 /* EyesightStatisticViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294692E228445A00039F3E5 /* EyesightStatisticViewOutput.swift */; };
-		52946939228449970039F3E5 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52946938228449970039F3E5 /* MenuPresenter.swift */; };
-		5294694722844F870039F3E5 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694422844F870039F3E5 /* MenuRouter.swift */; };
-		5294694822844F870039F3E5 /* MenuRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694522844F870039F3E5 /* MenuRouterOutput.swift */; };
-		5294694922844F870039F3E5 /* MenuRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694622844F870039F3E5 /* MenuRouterInput.swift */; };
-		5294694B228450D70039F3E5 /* MenuScreenModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */; };
-		5294694D2285AF6F0039F3E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694C2285AF6F0039F3E5 /* TableViewController.swift */; };
 		5294694F2285AF8E0039F3E5 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294694E2285AF8E0039F3E5 /* ExercisesViewController.swift */; };
 		529469562285CEF70039F3E5 /* ExercisesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529469532285CEF70039F3E5 /* ExercisesViewOutput.swift */; };
 		529469582285CEF70039F3E5 /* ExercisesViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529469552285CEF70039F3E5 /* ExercisesViewInput.swift */; };
@@ -81,9 +104,6 @@
 		52A6B5F022662300004861B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6B5EE22662300004861B3 /* LaunchScreen.storyboard */; };
 		52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */; };
 		52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */; };
-		52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */; };
-		52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */; };
-		52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B6082266274D004861B3 /* MainScreenRouter.swift */; };
 		52A6B615226628D4004861B3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B614226628D4004861B3 /* GradientView.swift */; };
 		52A6B61B22664AB3004861B3 /* MainScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B61822664AB3004861B3 /* MainScreenViewOutput.swift */; };
 		52A6B61C22664AB3004861B3 /* MainScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B61922664AB3004861B3 /* MainScreenViewInput.swift */; };
@@ -132,6 +152,35 @@
 		5255CADB22898DED00D27A3C /* ExercisesRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesRouterInput.swift; sourceTree = "<group>"; };
 		5255CADC22898DED00D27A3C /* ExercisesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesRouter.swift; sourceTree = "<group>"; };
 		5255CADD22898DED00D27A3C /* ExercisesRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesRouterOutput.swift; sourceTree = "<group>"; };
+		5255CAE42289D67800D27A3C /* EyesightCheckInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckInteractorOutput.swift; sourceTree = "<group>"; };
+		5255CAE52289D67800D27A3C /* EyesightCheckInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckInteractor.swift; sourceTree = "<group>"; };
+		5255CAE62289D67800D27A3C /* EyesightCheckInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightCheckInteractorInput.swift; sourceTree = "<group>"; };
+		5255CAEA2289DA5300D27A3C /* EyesightStatisticPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesightStatisticPresenter.swift; sourceTree = "<group>"; };
+		5255CAEF2289DA8A00D27A3C /* EyesightStatisticInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightStatisticInteractorInput.swift; sourceTree = "<group>"; };
+		5255CAF02289DA8A00D27A3C /* EyesightStatisticInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightStatisticInteractorOutput.swift; sourceTree = "<group>"; };
+		5255CAF12289DA8A00D27A3C /* EyesightStatisticInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightStatisticInteractor.swift; sourceTree = "<group>"; };
+		5255CAF52289DF2C00D27A3C /* EyesightStatisticConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesightStatisticConfigurator.swift; sourceTree = "<group>"; };
+		5255CAFA2289E26300D27A3C /* StatisticInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticInteractorOutput.swift; sourceTree = "<group>"; };
+		5255CAFB2289E26300D27A3C /* StatisticInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticInteractorInput.swift; sourceTree = "<group>"; };
+		5255CAFC2289E26300D27A3C /* StatisticInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticInteractor.swift; sourceTree = "<group>"; };
+		5255CB002289E27400D27A3C /* StatisticPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticPresenter.swift; sourceTree = "<group>"; };
+		5255CB022289E28200D27A3C /* StatisticConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticConfigurator.swift; sourceTree = "<group>"; };
+		5255CB07228A0FD800D27A3C /* AchievementsInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsInteractorInput.swift; sourceTree = "<group>"; };
+		5255CB08228A0FD800D27A3C /* AchievementsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsInteractor.swift; sourceTree = "<group>"; };
+		5255CB09228A0FD800D27A3C /* AchievementsInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsInteractorOutput.swift; sourceTree = "<group>"; };
+		5255CB0D228A0FF300D27A3C /* AchievementPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementPresenter.swift; sourceTree = "<group>"; };
+		5255CB12228A1BBA00D27A3C /* AchievementsRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsRouterInput.swift; sourceTree = "<group>"; };
+		5255CB13228A1BBA00D27A3C /* AchievementsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsRouter.swift; sourceTree = "<group>"; };
+		5255CB14228A1BBA00D27A3C /* AchievementsRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsRouterOutput.swift; sourceTree = "<group>"; };
+		5255CB18228A99D700D27A3C /* AchievementsModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsModuleConfigurator.swift; sourceTree = "<group>"; };
+		5255CB1A228AB19200D27A3C /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		5255CB1F228AB1CA00D27A3C /* SettingsInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInteractorOutput.swift; sourceTree = "<group>"; };
+		5255CB20228AB1CA00D27A3C /* SettingsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		5255CB21228AB1CA00D27A3C /* SettingsInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInteractorInput.swift; sourceTree = "<group>"; };
+		5255CB25228AB34D00D27A3C /* SettingsModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModuleConfigurator.swift; sourceTree = "<group>"; };
+		5255CB2A228AB66B00D27A3C /* SettingsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		5255CB2B228AB66B00D27A3C /* SettingsRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRouterOutput.swift; sourceTree = "<group>"; };
+		5255CB2C228AB66B00D27A3C /* SettingsRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRouterInput.swift; sourceTree = "<group>"; };
 		527B91D8227C2A960095F992 /* VideoViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewOutput.swift; sourceTree = "<group>"; };
 		527B91DA227C2AA40095F992 /* VideoViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewInput.swift; sourceTree = "<group>"; };
 		527B91DE227C2ACF0095F992 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -140,9 +189,9 @@
 		527B91E6227C2F210095F992 /* VideoInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractorInput.swift; sourceTree = "<group>"; };
 		527B91E8227C2F2C0095F992 /* VideoInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractorOutput.swift; sourceTree = "<group>"; };
 		527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModuleConfigurator.swift; sourceTree = "<group>"; };
-		529468C72281ACE50039F3E5 /* MainScreenInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenInteractor.swift; path = EyeExecises/MainScreen/Interactor/MainScreenInteractor.swift; sourceTree = SOURCE_ROOT; };
-		529468C82281ACE50039F3E5 /* MainScreenInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenInteractorInput.swift; path = EyeExecises/MainScreen/Interactor/MainScreenInteractorInput.swift; sourceTree = SOURCE_ROOT; };
-		529468C92281ACE50039F3E5 /* MainScreenInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenInteractorOutput.swift; path = EyeExecises/MainScreen/Interactor/MainScreenInteractorOutput.swift; sourceTree = SOURCE_ROOT; };
+		529468C72281ACE50039F3E5 /* MainScreenInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenInteractor.swift; path = EyeExecises/MainScreen/Interactor/main/MainScreenInteractor.swift; sourceTree = SOURCE_ROOT; };
+		529468C82281ACE50039F3E5 /* MainScreenInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenInteractorInput.swift; path = EyeExecises/MainScreen/Interactor/main/MainScreenInteractorInput.swift; sourceTree = SOURCE_ROOT; };
+		529468C92281ACE50039F3E5 /* MainScreenInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenInteractorOutput.swift; path = EyeExecises/MainScreen/Interactor/main/MainScreenInteractorOutput.swift; sourceTree = SOURCE_ROOT; };
 		529468FF2282D9840039F3E5 /* MenuViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewInput.swift; sourceTree = "<group>"; };
 		529469002282D9840039F3E5 /* MenuViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewOutput.swift; sourceTree = "<group>"; };
 		529469012282D9840039F3E5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -156,12 +205,6 @@
 		52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesightCheckModuleConfigurator.swift; sourceTree = "<group>"; };
 		5294692D228445A00039F3E5 /* EyesightStatisticViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightStatisticViewInput.swift; sourceTree = "<group>"; };
 		5294692E228445A00039F3E5 /* EyesightStatisticViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesightStatisticViewOutput.swift; sourceTree = "<group>"; };
-		52946938228449970039F3E5 /* MenuPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
-		5294694422844F870039F3E5 /* MenuRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
-		5294694522844F870039F3E5 /* MenuRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRouterOutput.swift; sourceTree = "<group>"; };
-		5294694622844F870039F3E5 /* MenuRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRouterInput.swift; sourceTree = "<group>"; };
-		5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScreenModuleConfigurator.swift; sourceTree = "<group>"; };
-		5294694C2285AF6F0039F3E5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5294694E2285AF8E0039F3E5 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
 		529469532285CEF70039F3E5 /* ExercisesViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewOutput.swift; sourceTree = "<group>"; };
 		529469552285CEF70039F3E5 /* ExercisesViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewInput.swift; sourceTree = "<group>"; };
@@ -174,9 +217,6 @@
 		52A6B5F122662300004861B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
 		52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenModuleConfigurator.swift; sourceTree = "<group>"; };
-		52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouterInput.swift; sourceTree = "<group>"; };
-		52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouterOutput.swift; sourceTree = "<group>"; };
-		52A6B6082266274D004861B3 /* MainScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
 		52A6B614226628D4004861B3 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		52A6B61822664AB3004861B3 /* MainScreenViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewOutput.swift; sourceTree = "<group>"; };
 		52A6B61922664AB3004861B3 /* MainScreenViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewInput.swift; sourceTree = "<group>"; };
@@ -292,11 +332,14 @@
 		5255CACC22898D2500D27A3C /* configurators */ = {
 			isa = PBXGroup;
 			children = (
-				5294694A228450D70039F3E5 /* MenuScreenModuleConfigurator.swift */,
 				5255CACA2288811200D27A3C /* ExerciseModuleConfigurator.swift */,
 				52A6B5FC2266274D004861B3 /* MainScreenModuleConfigurator.swift */,
 				52946928228436450039F3E5 /* EyesightCheckModuleConfigurator.swift */,
 				527B91EC227C37DD0095F992 /* VideoModuleConfigurator.swift */,
+				5255CAF52289DF2C00D27A3C /* EyesightStatisticConfigurator.swift */,
+				5255CB022289E28200D27A3C /* StatisticConfigurator.swift */,
+				5255CB18228A99D700D27A3C /* AchievementsModuleConfigurator.swift */,
+				5255CB25228AB34D00D27A3C /* SettingsModuleConfigurator.swift */,
 			);
 			path = configurators;
 			sourceTree = "<group>";
@@ -319,6 +362,76 @@
 				5255CADD22898DED00D27A3C /* ExercisesRouterOutput.swift */,
 			);
 			path = Exercises;
+			sourceTree = "<group>";
+		};
+		5255CAE32289D67800D27A3C /* EyesightCheck */ = {
+			isa = PBXGroup;
+			children = (
+				5255CAE42289D67800D27A3C /* EyesightCheckInteractorOutput.swift */,
+				5255CAE52289D67800D27A3C /* EyesightCheckInteractor.swift */,
+				5255CAE62289D67800D27A3C /* EyesightCheckInteractorInput.swift */,
+			);
+			path = EyesightCheck;
+			sourceTree = "<group>";
+		};
+		5255CAEE2289DA8A00D27A3C /* EyesightStatistic */ = {
+			isa = PBXGroup;
+			children = (
+				5255CAEF2289DA8A00D27A3C /* EyesightStatisticInteractorInput.swift */,
+				5255CAF02289DA8A00D27A3C /* EyesightStatisticInteractorOutput.swift */,
+				5255CAF12289DA8A00D27A3C /* EyesightStatisticInteractor.swift */,
+			);
+			path = EyesightStatistic;
+			sourceTree = "<group>";
+		};
+		5255CAF92289E26300D27A3C /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				5255CAFA2289E26300D27A3C /* StatisticInteractorOutput.swift */,
+				5255CAFB2289E26300D27A3C /* StatisticInteractorInput.swift */,
+				5255CAFC2289E26300D27A3C /* StatisticInteractor.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		5255CB06228A0FD800D27A3C /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				5255CB07228A0FD800D27A3C /* AchievementsInteractorInput.swift */,
+				5255CB08228A0FD800D27A3C /* AchievementsInteractor.swift */,
+				5255CB09228A0FD800D27A3C /* AchievementsInteractorOutput.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		5255CB11228A1BBA00D27A3C /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				5255CB12228A1BBA00D27A3C /* AchievementsRouterInput.swift */,
+				5255CB13228A1BBA00D27A3C /* AchievementsRouter.swift */,
+				5255CB14228A1BBA00D27A3C /* AchievementsRouterOutput.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		5255CB1E228AB1CA00D27A3C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5255CB1F228AB1CA00D27A3C /* SettingsInteractorOutput.swift */,
+				5255CB20228AB1CA00D27A3C /* SettingsInteractor.swift */,
+				5255CB21228AB1CA00D27A3C /* SettingsInteractorInput.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5255CB29228AB66B00D27A3C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5255CB2A228AB66B00D27A3C /* SettingsRouter.swift */,
+				5255CB2B228AB66B00D27A3C /* SettingsRouterOutput.swift */,
+				5255CB2C228AB66B00D27A3C /* SettingsRouterInput.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		527B91D7227C2A750095F992 /* video */ = {
@@ -351,16 +464,6 @@
 			path = menu;
 			sourceTree = "<group>";
 		};
-		52946910228432940039F3E5 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				52A6B6062266274D004861B3 /* MainScreenRouterInput.swift */,
-				52A6B6072266274D004861B3 /* MainScreenRouterOutput.swift */,
-				52A6B6082266274D004861B3 /* MainScreenRouter.swift */,
-			);
-			path = main;
-			sourceTree = "<group>";
-		};
 		52946913228433E70039F3E5 /* eyesightCheck */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,21 +489,10 @@
 			children = (
 				5294692D228445A00039F3E5 /* EyesightStatisticViewInput.swift */,
 				5294692E228445A00039F3E5 /* EyesightStatisticViewOutput.swift */,
-				5294694C2285AF6F0039F3E5 /* TableViewController.swift */,
 				5255CA7622871FE300D27A3C /* EyesightStatisticTableViewCell.swift */,
 				5255CA782287200200D27A3C /* EyesightStatisticViewController.swift */,
 			);
 			path = eyesightStatistic;
-			sourceTree = "<group>";
-		};
-		5294694322844F870039F3E5 /* menu */ = {
-			isa = PBXGroup;
-			children = (
-				5294694422844F870039F3E5 /* MenuRouter.swift */,
-				5294694522844F870039F3E5 /* MenuRouterOutput.swift */,
-				5294694622844F870039F3E5 /* MenuRouterInput.swift */,
-			);
-			path = menu;
 			sourceTree = "<group>";
 		};
 		529469522285CEF60039F3E5 /* Exercises */ = {
@@ -464,11 +556,14 @@
 		52A6B5FA2266274D004861B3 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				52946938228449970039F3E5 /* MenuPresenter.swift */,
 				52A6B5FB2266274D004861B3 /* MainScreenPresenter.swift */,
 				527B91E0227C2EE00095F992 /* VideoPresenter.swift */,
 				52946926228435E50039F3E5 /* EyesightCheckPresenter.swift */,
 				5255CACD22898D5B00D27A3C /* ExercisesPresenter.swift */,
+				5255CAEA2289DA5300D27A3C /* EyesightStatisticPresenter.swift */,
+				5255CB002289E27400D27A3C /* StatisticPresenter.swift */,
+				5255CB0D228A0FF300D27A3C /* AchievementPresenter.swift */,
+				5255CB1A228AB19200D27A3C /* SettingsPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -494,6 +589,11 @@
 		52A6B6012266274D004861B3 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				5255CB1E228AB1CA00D27A3C /* Settings */,
+				5255CB06228A0FD800D27A3C /* Achievements */,
+				5255CAF92289E26300D27A3C /* Statistic */,
+				5255CAEE2289DA8A00D27A3C /* EyesightStatistic */,
+				5255CAE32289D67800D27A3C /* EyesightCheck */,
 				5255CAD122898DA400D27A3C /* Exercises */,
 				520EE5542281ABB90088C442 /* main */,
 				527B91E3227C2EFA0095F992 /* video */,
@@ -504,10 +604,10 @@
 		52A6B6052266274D004861B3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				5255CB29228AB66B00D27A3C /* Settings */,
+				5255CB11228A1BBA00D27A3C /* Achievements */,
 				5255CADA22898DED00D27A3C /* Exercises */,
-				5294694322844F870039F3E5 /* menu */,
 				5294691C228435AD0039F3E5 /* eyesightCheck */,
-				52946910228432940039F3E5 /* main */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -667,18 +767,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5255CAE92289D67800D27A3C /* EyesightCheckInteractorInput.swift in Sources */,
 				5255CAE022898DED00D27A3C /* ExercisesRouterOutput.swift in Sources */,
+				5255CAFD2289E26400D27A3C /* StatisticInteractorOutput.swift in Sources */,
+				5255CAFF2289E26400D27A3C /* StatisticInteractor.swift in Sources */,
 				529468CA2281ACE50039F3E5 /* MainScreenInteractor.swift in Sources */,
+				5255CB1B228AB19200D27A3C /* SettingsPresenter.swift in Sources */,
 				52A6B61B22664AB3004861B3 /* MainScreenViewOutput.swift in Sources */,
 				52A6B5E6226622FA004861B3 /* AppDelegate.swift in Sources */,
 				5255CA9A22875B3E00D27A3C /* AchievementsViewInput.swift in Sources */,
 				5255CA792287200200D27A3C /* EyesightStatisticViewController.swift in Sources */,
 				52A6B615226628D4004861B3 /* GradientView.swift in Sources */,
-				5294694922844F870039F3E5 /* MenuRouterInput.swift in Sources */,
+				5255CAFE2289E26400D27A3C /* StatisticInteractorInput.swift in Sources */,
 				5255CAA322875B7000D27A3C /* SettingsViewController.swift in Sources */,
 				527B91E7227C2F210095F992 /* VideoInteractorInput.swift in Sources */,
+				5255CAF42289DA8A00D27A3C /* EyesightStatisticInteractor.swift in Sources */,
+				5255CB17228A1BBB00D27A3C /* AchievementsRouterOutput.swift in Sources */,
 				527B91E5227C2F110095F992 /* VideoInteractor.swift in Sources */,
-				5294694822844F870039F3E5 /* MenuRouterOutput.swift in Sources */,
 				5255CAD722898DA400D27A3C /* ExercisesInteractorInput.swift in Sources */,
 				5255CAAF22876DDB00D27A3C /* ExerciseDetailViewController.swift in Sources */,
 				529469562285CEF70039F3E5 /* ExercisesViewOutput.swift in Sources */,
@@ -690,61 +795,76 @@
 				5255CACE22898D5B00D27A3C /* ExercisesPresenter.swift in Sources */,
 				52946920228435AD0039F3E5 /* EyesightCheckRouter.swift in Sources */,
 				52946930228445A00039F3E5 /* EyesightStatisticViewInput.swift in Sources */,
+				5255CB26228AB34D00D27A3C /* SettingsModuleConfigurator.swift in Sources */,
+				5255CB2D228AB66B00D27A3C /* SettingsRouter.swift in Sources */,
 				527B91ED227C37DD0095F992 /* VideoModuleConfigurator.swift in Sources */,
 				52946919228433E70039F3E5 /* EyesightCheckViewOutput.swift in Sources */,
-				52946939228449970039F3E5 /* MenuPresenter.swift in Sources */,
 				52946921228435AD0039F3E5 /* EyesightCheckRouterInput.swift in Sources */,
+				5255CB2E228AB66B00D27A3C /* SettingsRouterOutput.swift in Sources */,
 				52A6B61C22664AB3004861B3 /* MainScreenViewInput.swift in Sources */,
 				5255CACB2288811200D27A3C /* ExerciseModuleConfigurator.swift in Sources */,
 				5255CA8122873F4B00D27A3C /* UserModel.swift in Sources */,
+				5255CAE82289D67800D27A3C /* EyesightCheckInteractor.swift in Sources */,
+				5255CB23228AB1CA00D27A3C /* SettingsInteractor.swift in Sources */,
 				52A6B62522664B83004861B3 /* BaseViewInput.swift in Sources */,
-				5294694D2285AF6F0039F3E5 /* TableViewController.swift in Sources */,
+				5255CB0C228A0FD800D27A3C /* AchievementsInteractorOutput.swift in Sources */,
+				5255CAEB2289DA5300D27A3C /* EyesightStatisticPresenter.swift in Sources */,
 				52946927228435E50039F3E5 /* EyesightCheckPresenter.swift in Sources */,
 				5255CA9922875B3E00D27A3C /* AchievementsViewController.swift in Sources */,
 				527B91DB227C2AA40095F992 /* VideoViewInput.swift in Sources */,
 				52A6B6092266274D004861B3 /* MainScreenPresenter.swift in Sources */,
 				52A6B61D22664AB3004861B3 /* MainScreenViewController.swift in Sources */,
+				5255CB2F228AB66B00D27A3C /* SettingsRouterInput.swift in Sources */,
 				52946917228433E70039F3E5 /* EyesightCheckViewController.swift in Sources */,
 				529468CB2281ACE50039F3E5 /* MainScreenInteractorInput.swift in Sources */,
 				5255CA9122875AD100D27A3C /* StatisticViewController.swift in Sources */,
 				5255CAA422875B7000D27A3C /* SettingsViewInput.swift in Sources */,
 				5255CAA222875B7000D27A3C /* SettingsViewOutput.swift in Sources */,
+				5255CB032289E28200D27A3C /* StatisticConfigurator.swift in Sources */,
+				5255CB24228AB1CA00D27A3C /* SettingsInteractorInput.swift in Sources */,
 				5255CA832287404B00D27A3C /* EyesightCheckNoteModel.swift in Sources */,
+				5255CAF32289DA8A00D27A3C /* EyesightStatisticInteractorOutput.swift in Sources */,
+				5255CAF22289DA8A00D27A3C /* EyesightStatisticInteractorInput.swift in Sources */,
 				527B91D9227C2A960095F992 /* VideoViewOutput.swift in Sources */,
 				529469022282D9840039F3E5 /* MenuViewInput.swift in Sources */,
 				5294695A2285D9120039F3E5 /* ExercisesTableViewCell.swift in Sources */,
+				5255CB19228A99D700D27A3C /* AchievementsModuleConfigurator.swift in Sources */,
 				5255CA7722871FE300D27A3C /* EyesightStatisticTableViewCell.swift in Sources */,
+				5255CAF62289DF2C00D27A3C /* EyesightStatisticConfigurator.swift in Sources */,
 				5255CA7C22873E5100D27A3C /* DataBaseManagerProtocol.swift in Sources */,
 				52A6B60A2266274D004861B3 /* MainScreenModuleConfigurator.swift in Sources */,
-				52A6B6122266274D004861B3 /* MainScreenRouterOutput.swift in Sources */,
+				5255CB012289E27400D27A3C /* StatisticPresenter.swift in Sources */,
 				5255CADE22898DED00D27A3C /* ExercisesRouterInput.swift in Sources */,
-				5294694B228450D70039F3E5 /* MenuScreenModuleConfigurator.swift in Sources */,
-				52A6B6112266274D004861B3 /* MainScreenRouterInput.swift in Sources */,
 				5255CA8922874AD800D27A3C /* ExerciseModel.swift in Sources */,
 				5255CAB82288212700D27A3C /* APIManager.swift in Sources */,
 				5255CA9022875AD100D27A3C /* StatisticViewInput.swift in Sources */,
+				5255CAE72289D67800D27A3C /* EyesightCheckInteractorOutput.swift in Sources */,
 				5255CAA822876DAB00D27A3C /* StatisticTableViewCell.swift in Sources */,
 				52946931228445A00039F3E5 /* EyesightStatisticViewOutput.swift in Sources */,
+				5255CB15228A1BBB00D27A3C /* AchievementsRouterInput.swift in Sources */,
 				5255CAB72288212700D27A3C /* APIManagerProtocol.swift in Sources */,
 				52946922228435AD0039F3E5 /* EyesightCheckRouterOutput.swift in Sources */,
+				5255CB0A228A0FD800D27A3C /* AchievementsInteractorInput.swift in Sources */,
 				5255CA9222875AD100D27A3C /* StatisticViewOutput.swift in Sources */,
 				52946929228436450039F3E5 /* EyesightCheckModuleConfigurator.swift in Sources */,
 				527B91E9227C2F2C0095F992 /* VideoInteractorOutput.swift in Sources */,
 				527B91DF227C2ACF0095F992 /* VideoViewController.swift in Sources */,
+				5255CB0B228A0FD800D27A3C /* AchievementsInteractor.swift in Sources */,
 				5255CA7E22873E5D00D27A3C /* DataBaseManager.swift in Sources */,
 				529468CC2281ACE50039F3E5 /* MainScreenInteractorOutput.swift in Sources */,
+				5255CB22228AB1CA00D27A3C /* SettingsInteractorOutput.swift in Sources */,
 				5255CAC322884DBE00D27A3C /* FoundedItem.swift in Sources */,
 				529469042282D9840039F3E5 /* MenuViewController.swift in Sources */,
-				5294694722844F870039F3E5 /* MenuRouter.swift in Sources */,
 				52A6B62422664B83004861B3 /* BaseViewController.swift in Sources */,
 				5255CAB3228807B800D27A3C /* AchievementsTableViewCell.swift in Sources */,
 				5255CAAE22876DDB00D27A3C /* ExerciseDetailViewOutput.swift in Sources */,
-				52A6B6132266274D004861B3 /* MainScreenRouter.swift in Sources */,
+				5255CB0E228A0FF300D27A3C /* AchievementPresenter.swift in Sources */,
 				529469032282D9840039F3E5 /* MenuViewOutput.swift in Sources */,
 				5255CAD522898DA400D27A3C /* ExercisesInteractor.swift in Sources */,
 				5294694F2285AF8E0039F3E5 /* ExercisesViewController.swift in Sources */,
 				5255CAAD22876DDB00D27A3C /* ExerciseDetailViewInput.swift in Sources */,
 				5255CADF22898DED00D27A3C /* ExercisesRouter.swift in Sources */,
+				5255CB16228A1BBB00D27A3C /* AchievementsRouter.swift in Sources */,
 				52946918228433E70039F3E5 /* EyesightCheckViewInput.swift in Sources */,
 				52A6B62322664B83004861B3 /* BaseViewOutput.swift in Sources */,
 				529469582285CEF70039F3E5 /* ExercisesViewInput.swift in Sources */,

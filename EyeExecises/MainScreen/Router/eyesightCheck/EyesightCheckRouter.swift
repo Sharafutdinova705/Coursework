@@ -33,17 +33,20 @@ class EyesightCheckRouter: EyesightCheckRouterInput {
         let both = alert.textFields?[2]
         
         let ok = UIAlertAction(title: "Ok", style: .default) { (action) in
-            if right?.text == "" && left?.text == "" && both?.text == "" {
+            
+            if right?.text == "" || left?.text == "" || both?.text == "" {
                 
                 self.showEmptyTextFieldAlert()
             } else {
-                
+                let eyesightCheckModel = EyesightCheckNoteModel()
+                eyesightCheckModel.rightEyesight = Int((right?.text)!)!
+                eyesightCheckModel.leftEyesight = Int((left?.text)!)!
+                eyesightCheckModel.bothEyesight = Int((both?.text)!)!
+                self.output.saveEyesightCheck(eyesightCheck: eyesightCheckModel)
             }
         }
         
-        let cancel = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
-            //
-        }
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
         alert.addAction(ok)
         alert.addAction(cancel)
@@ -53,15 +56,11 @@ class EyesightCheckRouter: EyesightCheckRouterInput {
     
     func showStatistics() {
         
-//        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-//        let vc = mainStoryboard.instantiateViewController(withIdentifier: "statistic") as! EyesightStatisticViewController
-//
-//        //view.show(vc, sender: nil)
-//        view.present(vc, animated: true, completion: nil)
         view.performSegue(withIdentifier: "statistic", sender: nil)
     }
     
     func showEmptyTextFieldAlert() {
+        
         let alert = UIAlertController(title: "Write all data", message: "Some textField is empty. Write data of left, right and both eyesight", preferredStyle: .alert)
         let ok = UIAlertAction(title: "Ok", style: .default, handler: nil)
         

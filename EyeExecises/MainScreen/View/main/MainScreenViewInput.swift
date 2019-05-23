@@ -10,4 +10,5 @@ import Foundation
 
 protocol MainScreenViewInput: AnyObject {
     
+    func updateCountOfCoin(coin: Int)
 }

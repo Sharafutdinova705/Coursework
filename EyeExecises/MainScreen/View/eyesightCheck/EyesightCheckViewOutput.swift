@@ -13,4 +13,6 @@ protocol EyesightCheckViewOutput: AnyObject {
     func showNewDataAlert()
     
     func showStatistics()
+    
+    func obtainCountOfCoin()
 }

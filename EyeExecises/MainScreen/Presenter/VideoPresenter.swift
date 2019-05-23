@@ -21,4 +21,8 @@ class VideoPresenter: VideoViewOutput, VideoInteractorOutput {
     func showEnd() {
         view.showEnd()
     }
+    
+    func updateCountOfCoin(coin: Int) {
+        interactor.updateCountOfCoin(coin: coin)
+    }
 }

@@ -24,10 +24,12 @@ class VideoModuleConfigurator: NSObject {
         guard let viewController = self.viewController as? VideoViewController else { return }
         let presenter = VideoPresenter()
         let interactor = VideoInteractor()
+        let dataBase = DataBaseManager()
         
         viewController.presenter = presenter
         presenter.interactor = interactor
         interactor.presenter = presenter
+        interactor.dataBase = dataBase
         presenter.view = viewController
     }
 }

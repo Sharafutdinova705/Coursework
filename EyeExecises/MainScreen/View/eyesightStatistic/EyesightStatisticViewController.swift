@@ -8,9 +8,11 @@
 
 import UIKit
 
-class EyesightStatisticViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class EyesightStatisticViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, EyesightStatisticViewInput {
 
     @IBOutlet weak var tableView: UITableView!
+    var eyesightStatisticArray: [EyesightCheckNoteModel] = []
+    var presenter: EyesightStatisticViewOutput!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,8 +21,12 @@ class EyesightStatisticViewController: UIViewController, UITableViewDelegate, UI
 //        self.tableView.register(EyesightStatisticTableViewCell.self, forCellReuseIdentifier: "Cell")
         tableView.delegate = self
         tableView.dataSource = self
+        presenter.getAllEyesightCheckModels()
     }
     
+    func updateEyesightCheckModelsArray(eyesightStatisticArray: [EyesightCheckNoteModel]) {
+        self.eyesightStatisticArray = eyesightStatisticArray
+    }
     
     func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -29,7 +35,7 @@ class EyesightStatisticViewController: UIViewController, UITableViewDelegate, UI
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 4
+        return eyesightStatisticArray.count + 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -39,32 +45,16 @@ class EyesightStatisticViewController: UIViewController, UITableViewDelegate, UI
             return cell
         }
         
-        let date = Date()
+        let eyesightStatisticModel = eyesightStatisticArray[indexPath.row - 1]
         let formatter = DateFormatter()
         formatter.dateFormat = "dd.MM.yyyy"
         
         cell.numberOfRowLabel.text = String(indexPath.row)
-        cell.dateOfNoteLabel.text = formatter.string(from: date)
-        cell.rightEyesightLabel.text = "right" + String(indexPath.row)
-        cell.leftEyesightLabel.text = "left" + String(indexPath.row)
-        cell.bothEyesightLabel.text = "both" + String(indexPath.row)
+        cell.dateOfNoteLabel.text = formatter.string(from: eyesightStatisticModel.date)
+        cell.rightEyesightLabel.text = String(eyesightStatisticModel.rightEyesight)
+        cell.leftEyesightLabel.text = String(eyesightStatisticModel.leftEyesight)
+        cell.bothEyesightLabel.text = String(eyesightStatisticModel.bothEyesight)
         
         return cell
     }
-    
-    @IBAction func ifoButtonPressed(_ sender: Any) {
-        
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

@@ -10,4 +10,7 @@ import Foundation
 
 protocol StatisticViewOutput: AnyObject {
     
+    func obtainAllStatistics()
+    
+    func obtainUsageStatistic()
 }

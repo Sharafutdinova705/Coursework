@@ -23,8 +23,13 @@ class MainScreenModuleConfigurator: NSObject {
         
         guard let viewController = self.viewController as? MainScreenViewController else { return }
         let presenter = MainScreenPresenter()
+        let dataBase = DataBaseManager()
+        let interactor = MainScreenInteractor()
         
         viewController.output = presenter
         presenter.view = viewController
+        presenter.interactor = interactor
+        interactor.output = presenter
+        interactor.dataBase = dataBase
     }
 }

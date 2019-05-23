@@ -12,4 +12,6 @@ import UIKit
 protocol VideoInteractorInput: AnyObject {
     
     func doExercises(selfView: UIView, circleView: UIView)
+    
+    func updateCountOfCoin(coin: Int)
 }

@@ -15,6 +15,8 @@ class ExercisesViewController: UIViewController, UITableViewDelegate, UITableVie
     @IBOutlet weak var tableView: UITableView!
     
     var exercises: [ExerciseModel] = []
+    var dataBase = DataBaseManager()
+    var apimanager = APIManager(sessionConfiguration: URLSessionConfiguration.default)
     var presenter: ExercisesViewOutput!
     var currentCountOfCoin = 0
     
@@ -36,23 +38,71 @@ class ExercisesViewController: UIViewController, UITableViewDelegate, UITableVie
     
     func getAllExercises() {
         
-        presenter.getAllExercises()
-        reloading()
+        presenter.getCountOfCoin()
+        
+        exercises = dataBase.obtainExercises()
+        
+        if exercises == [] {
+            
+            apimanager.fetchResultWith() { (result) in
+                
+                switch result {
+                    
+                case .success(let foundedItem):
+                    
+                    for _ in foundedItem {
+                    
+                        let exerciseModel = ExerciseModel()
+                        exerciseModel.id = self.getLastId() + 1
+                        exerciseModel.name = "Buy for 500$"
+                        exerciseModel.information = ""
+                        exerciseModel.url = ""
+                        self.exercises.append(exerciseModel)
+                        self.dataBase.saveItem(item: exerciseModel)
+                    }
+                    
+                    self.tableView.reloadData()
+                
+                case .failure(let error):
+                
+                    print(error.localizedDescription)
+                }
+            }
+        }
     }
     
-    func reloading() {
+    func getLastId() -> Int {
+
+        var allId: [Int] = []
+        let exercisesArray = dataBase.obtainExercises()
+        let eyesightCheckArray = dataBase.obtainEyesightCheck()
+        let achievementArray = dataBase.obtainAchievements()
+        let usageArray = dataBase.obtainUsageDate()
+        let userModel = dataBase.obtainCoins()
         
-        self.tableView.reloadData()
+        allId.append(userModel?.id ?? 1)
+        
+        for item in exercisesArray {
+            allId.append(item.id)
+        }
+        
+        for item in eyesightCheckArray {
+            allId.append(item.id)
+        }
+        
+        for item in achievementArray {
+            allId.append(item.id)
+        }
+        
+        for item in usageArray {
+            allId.append(item.id)
+        }
+        
+        return allId.max() ?? 0
     }
     
     func updateExercisesArray(array: [ExerciseModel]) {
-        self.exercises = array
-        reloading()
-    }
-    
-    func buyExercise(index: Int) {
-        
-        presenter.buyExercise(index: index, array: self.exercises)
+        exercises = array
         self.tableView.reloadData()
     }
     
@@ -103,7 +153,17 @@ class ExercisesViewController: UIViewController, UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let cell = tableView.cellForRow(at: indexPath) as! ExercisesTableViewCell
-        presenter.showBuyingAlert(cell: cell, index: indexPath.section, currentCountOfCoin: currentCountOfCoin)
+        if cell.hiddenExerciseView.isHidden {
+            performSegue(withIdentifier: "toExerciseDetailVC", sender: indexPath.section)
+        } else {
+            
+            presenter.showBuyingAlert(cell: cell, index: indexPath.section, currentCountOfCoin: self.currentCountOfCoin)
+        }
+    }
+    
+    func buyExercise(index: Int) {
+        
+        presenter.buyExercise(index: index, array: self.exercises)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -114,6 +174,4 @@ class ExercisesViewController: UIViewController, UITableViewDelegate, UITableVie
             }
         }
     }
- 
-
 }

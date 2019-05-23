@@ -10,4 +10,7 @@ import Foundation
 
 protocol StatisticViewInput: AnyObject {
     
+    func updateStatistics(statisticarray: [Double])
+    
+    func updateUsageStatistics(statisticarray: [Double])
 }

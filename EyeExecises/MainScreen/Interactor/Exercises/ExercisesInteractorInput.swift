@@ -16,7 +16,5 @@ protocol ExercisesInteractorInput: AnyObject {
     
     func updateExercise(exercise: ExerciseModel, index: Int)
     
-    func getAllExercises()
-    
     func buyExercise(index: Int, array: [ExerciseModel]) 
 }

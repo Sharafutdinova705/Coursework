@@ -16,8 +16,6 @@ protocol ExercisesViewOutput: AnyObject {
     
     func updateExercise(exercise: ExerciseModel, index: Int)
     
-    func getAllExercises()
-    
     func buyExercise(index: Int, array: [ExerciseModel])
     
     func showBuyingAlert(cell: ExercisesTableViewCell, index: Int, currentCountOfCoin: Int)

@@ -1,5 +1,5 @@
 //
-//  MainScreenRouterOutput.swift
+//  MainScreenInteractorOutput.swift
 //  EyeExecises
 //
 //  Created by Гузель on 16/04/2019.
@@ -8,6 +8,7 @@
 
 import Foundation
 
-protocol MainScreenRouterOutput: AnyObject {
+protocol MainScreenInteractorOutput: AnyObject {
     
+    func updateCountOfCoin(coin: Int)
 }

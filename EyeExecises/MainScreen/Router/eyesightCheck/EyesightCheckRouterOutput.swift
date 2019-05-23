@@ -10,4 +10,5 @@ import Foundation
 
 protocol EyesightCheckRouterOutput: AnyObject {
     
+    func saveEyesightCheck(eyesightCheck: EyesightCheckNoteModel)
 }

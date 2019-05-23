@@ -10,12 +10,15 @@ import UIKit
 
 class MainScreenViewController: UIViewController, MainScreenViewInput {
     
+    @IBOutlet weak var countOfCoin: UIBarButtonItem!
     var output: MainScreenViewOutput!
     
     //MARK: - Методы
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        obtainCountOfCoin()
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(showEyesightCheckPage),
@@ -37,6 +40,26 @@ class MainScreenViewController: UIViewController, MainScreenViewInput {
                                                selector: #selector(showSettings),
                                                name: NSNotification.Name("showSettings"),
                                                object: nil)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(obtainCountOfCoin),
+                                               name: NSNotification.Name("moneyReceived"),
+                                               object: nil)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(obtainCountOfCoin),
+                                               name: NSNotification.Name("buyExercise"),
+                                               object: nil)
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
+    @objc func obtainCountOfCoin() {
+        output.obtainCountOfCoin()
+    }
+    
+    func updateCountOfCoin(coin: Int) {
+        countOfCoin.title = String(coin) + "$"
     }
     
     @IBAction func menuButtonPressed(_ sender: Any) {

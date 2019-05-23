@@ -11,4 +11,9 @@ import UIKit
 class MainScreenInteractor: MainScreenInteractorInput {
     
     var output: MainScreenInteractorOutput!
+    var dataBase: DataBaseManagerProtocol!
+    
+    func obtainCountOfCoin() {
+        output.updateCountOfCoin(coin: dataBase.obtainCoins()?.coin ?? 0)
+    }
 }

@@ -29,7 +29,6 @@ class VideoViewController: UIViewController, VideoViewInput {
         presenter.doExercises(selfView: self.view, circleView: circleView)
     }
     
-    
     func showEnd() {
         
         UIView.animate(withDuration: 1.5, animations: {
@@ -48,7 +47,8 @@ class VideoViewController: UIViewController, VideoViewInput {
     @IBAction func getMoneyAction(_ sender: Any) {
         
         getMoney.isHidden = true
-        //обновление количества денег юзера в бд
+        presenter.updateCountOfCoin(coin: 50)
+        NotificationCenter.default.post(name: NSNotification.Name("moneyReceived"), object: nil)
         dismiss(animated: true, completion: nil)
     }
     

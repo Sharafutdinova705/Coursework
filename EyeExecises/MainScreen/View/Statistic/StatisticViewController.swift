@@ -9,33 +9,49 @@
 import UIKit
 import Charts
 
-class StatisticViewController: UIViewController {
+class StatisticViewController: UIViewController , StatisticViewInput{
     
+    @IBOutlet weak var eyesightStatisticCellView: UIView!
+    @IBOutlet weak var eyesightStatisticLinaChartView: LineChartView!
     @IBOutlet weak var lineChart: LineChartView!
     @IBOutlet weak var statisticCellView: UIView!
     var dataSet: LineChartDataSet!
+    var presenter: StatisticViewOutput!
     
-    var entries: [ChartDataEntry] = Array()
-    let values: [Double] = [8, 104, 81, 93, 52, 44, 97, 101, 75, 28,
-                         //   76, 25, 20, 13, 52, 44, 57, 23, 45, 91,
-                            99, 14, 84, 48, 40, 71, 106, 41, 45, 61]
+    var entries: [ChartDataEntry]!
+    
+    var eyesightCheckNoteModelArray: [Double] = []
+    var usageStatisticArray: [Double] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        presenter.obtainAllStatistics()
+        presenter.obtainUsageStatistic()
         
         statisticCellView.layer.cornerRadius = 30
         statisticCellView.clipsToBounds = true
         
-        for (i, value) in values.enumerated()
+        updateChartDataForFirstStatistic()
+        updateChartDataForSecondStatistic()
+    }
+    
+    func updateStatistics(statisticarray: [Double]) {
+        self.eyesightCheckNoteModelArray = statisticarray
+    }
+    
+    func updateUsageStatistics(statisticarray: [Double]) {
+        self.usageStatisticArray = statisticarray
+    }
+    
+    func updateChartDataForFirstStatistic() {
+        
+        entries = Array()
+        
+        for (i, value) in eyesightCheckNoteModelArray.enumerated()
         {
             entries.append(ChartDataEntry(x: Double(i), y: value, icon: UIImage(named: "icon", in: Bundle(for: self.classForCoder), compatibleWith: nil)))
         }
-        
-        updateChartData()
-    }
-    
-    func updateChartData() {
         
         dataSet = LineChartDataSet(values: entries, label: "First unit test data")
         dataSet.drawIconsEnabled = false
@@ -44,5 +60,27 @@ class StatisticViewController: UIViewController {
         lineChart.leftAxis.axisMinimum = 0.0
         lineChart.rightAxis.axisMinimum = 0.0
         lineChart.data = LineChartData(dataSet: dataSet)
+        dataSet = nil
+        entries = nil
+    }
+    
+    func updateChartDataForSecondStatistic() {
+        
+        entries = Array()
+        
+        for (i, value) in usageStatisticArray.enumerated()
+        {
+            entries.append(ChartDataEntry(x: Double(i), y: value, icon: UIImage(named: "icon", in: Bundle(for: self.classForCoder), compatibleWith: nil)))
+        }
+        
+        dataSet = LineChartDataSet(values: entries, label: "First unit test data")
+        dataSet.drawIconsEnabled = false
+        dataSet.iconsOffset = CGPoint(x: 0, y: 20.0)
+        
+        eyesightStatisticLinaChartView.leftAxis.axisMinimum = 0.0
+        eyesightStatisticLinaChartView.rightAxis.axisMinimum = 0.0
+        eyesightStatisticLinaChartView.data = LineChartData(dataSet: dataSet)
+        dataSet = nil
+        entries = nil
     }
 }

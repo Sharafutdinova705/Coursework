@@ -10,4 +10,7 @@ import Foundation
 
 protocol AchievementsViewInput: AnyObject {
     
+    func updateAchievements(achievements: [AchievementModel])
+    
+    func updateCountOfCoin(coin: Int) 
 }

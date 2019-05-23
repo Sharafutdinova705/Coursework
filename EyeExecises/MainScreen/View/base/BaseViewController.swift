@@ -71,12 +71,11 @@ class BaseViewController: UIViewController {
     
     func initData() {
         
-        dataBaseManager.clearAll()
         if dataBaseManager.obtainCoins() == nil {
            
             let userModel = UserModel()
             userModel.id = 1
-            userModel.coin = 10000000
+            userModel.coin = 0
             dataBaseManager.saveItem(item: userModel)
         }
     }

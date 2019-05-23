@@ -8,9 +8,18 @@
 
 import Foundation
 
-class MainScreenPresenter: MainScreenViewOutput {
+class MainScreenPresenter: MainScreenViewOutput, MainScreenInteractorOutput {
     
-    weak var view: MainScreenViewInput!
+    var view: MainScreenViewInput!
+    var interactor: MainScreenInteractorInput!
     
     //MARK: - MainScreenViewOutput
+    
+    func obtainCountOfCoin() {
+        interactor.obtainCountOfCoin()
+    }
+    
+    func updateCountOfCoin(coin: Int) {
+        view.updateCountOfCoin(coin: coin)
+    }
 }

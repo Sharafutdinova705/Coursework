@@ -10,4 +10,5 @@ import Foundation
 
 protocol EyesightCheckViewInput: AnyObject {
     
+    func updateCountOfCoin(coin: Int)
 }

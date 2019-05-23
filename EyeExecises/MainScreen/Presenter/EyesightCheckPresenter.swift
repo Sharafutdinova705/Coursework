@@ -8,18 +8,30 @@
 
 import Foundation
 
-class EyesightCheckPresenter: EyesightCheckViewOutput {
+class EyesightCheckPresenter: EyesightCheckViewOutput, EyesightCheckInteractorOutput, EyesightCheckRouterOutput {
     
     var view: EyesightCheckViewInput!
     var router: EyesightCheckRouterInput!
+    var interactor: EyesightCheckInteractorInput!
     
-    //MARK: - EyesightCheckViewOutput
+    //MARK: - MainScreenViewOutput
     
+    func obtainCountOfCoin() {
+        interactor.obtainCountOfCoin()
+    }
+    
+    func updateCountOfCoin(coin: Int) {
+        view.updateCountOfCoin(coin: coin)
+    }
     func showNewDataAlert() {
         router.showNewDataAlert()
     }
     
     func showStatistics() {
         router.showStatistics()
+    }
+    
+    func saveEyesightCheck(eyesightCheck: EyesightCheckNoteModel) {
+        interactor.saveEyesightCheck(eyesightCheck: eyesightCheck)
     }
 }

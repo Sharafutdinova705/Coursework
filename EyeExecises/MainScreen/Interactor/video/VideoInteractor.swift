@@ -11,8 +11,21 @@ import UIKit
 
 class VideoInteractor: VideoInteractorInput {
     
-    let duration = 0.5
+    let duration = 1.0
     var presenter: VideoInteractorOutput!
+    var dataBase: DataBaseManagerProtocol!
+    
+    func updateCountOfCoin(coin: Int) {
+        
+        let user = dataBase.obtainCoins()
+        
+        dataBase.performTransaction {
+            
+            user?.coin = (user?.coin)! + coin
+        }
+        
+        dataBase.updateItem(item: user!)
+    }
     
     func doExercises(selfView: UIView, circleView: UIView) {
         

@@ -24,10 +24,16 @@ class EyesightCheckModuleConfigurator: NSObject {
         guard let viewController = self.viewController as? EyesightCheckViewController else { return }
         let presenter = EyesightCheckPresenter()
         let router = EyesightCheckRouter()
+        let interactor = EyesightCheckInteractor()
+        let dataBase = DataBaseManager()
         
         viewController.output = presenter
         presenter.view = viewController
         presenter.router = router
+        presenter.interactor = interactor
         router.view = viewController
+        router.output = presenter
+        interactor.dataBase = dataBase
+        interactor.output = presenter
     }
 }

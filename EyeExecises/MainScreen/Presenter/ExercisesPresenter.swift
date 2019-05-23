@@ -34,10 +34,6 @@ class ExercisesPresenter: ExercisesViewOutput, ExercisesInteractorOutput, Exerci
         view.updateExercisesArray(array: array)
     }
     
-    func getAllExercises() {
-        interactor.getAllExercises()
-    }
-    
     func buyExercise(index: Int, array: [ExerciseModel]) {
         interactor.buyExercise(index: index, array: array)
     }

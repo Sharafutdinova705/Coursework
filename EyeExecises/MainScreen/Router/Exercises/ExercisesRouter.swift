@@ -23,7 +23,10 @@ class ExercisesRouter: ExercisesRouterInput {
                 if currentCountOfCoin >= 500 {
                     self.output.buyExercise(index: index)
                 } else {
-                    //alert
+                    let noMoneyAlert = UIAlertController(title: "Sry you poor", message: "You haven't enough money to buy this exercise", preferredStyle: .alert)
+                    let okay = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                    noMoneyAlert.addAction(okay)
+                    self.view.present(noMoneyAlert, animated: true, completion: nil)
                 }
             }
             
